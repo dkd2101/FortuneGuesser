@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8ebeb6b9f32147f08b4ca056ca06b5d, type: 3}
+  m_Name: D2 - ReconnectWithDad
+  m_EditorClassIdentifier: 
+  name: Seven
+  sentences:
+  - 'I appreciate the concern, but I don''t think that there''s any chance of reconnecting
+    with my father. '
+  - 'He''s already very intertwined with my life, but there''s not a chance I''m
+    going to feel comfortable enough opening up to him anytime soon. '
+  - I don't think I can do much from here, then. Thank you for your time in any case.

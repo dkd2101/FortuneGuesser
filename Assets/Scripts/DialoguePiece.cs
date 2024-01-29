@@ -1,13 +1,14 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New DialoguePiece", menuName = "ScriptableObjects/DialoguePiece")]
+[CreateAssetMenu(fileName = "New DialoguePiece", menuName = "DialoguePiece")]
 public class DialoguePiece : ScriptableObject
 {
-    public string[] clientDialogue;
+    public DialogueSO clientDialogue;
+    [TextArea(1, 10)]
     public string[] choiceNames;
     public DialoguePiece[] choiceOutcomes;
 
-    [Header("The following values should only be edited if this dialogue piece has no choices and ends the level.")]
+    [Header("End Piece Variables")]
     public bool endPiece = false;
     public int scoreValue = 0;
 }

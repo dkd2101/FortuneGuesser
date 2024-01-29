@@ -10,15 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
-  m_Name: TestDialogue3
+  m_Name: D6-E2-E4-E8Choice - SoWhatShouldIBecome
   m_EditorClassIdentifier: 
-  clientDialogue:
-  - Test Dialogue THREE
-  choiceNames:
-  - (we're on D3) Go to dialogue 1
-  - (we're on D3) Go to dialogue 2
-  choiceOutcomes:
-  - {fileID: 11400000, guid: 549a34aa228db5f448a883dda5510e50, type: 2}
-  - {fileID: 11400000, guid: 48b1cde1f9186f341be4148a9f4bec57, type: 2}
+  clientDialogue: {fileID: 0}
+  choiceNames: []
+  choiceOutcomes: []
   endPiece: 0
   scoreValue: 0
