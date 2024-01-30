@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
   m_Name: C4Choice - BackToUndergrad
   m_EditorClassIdentifier: 
-  clientDialogue: {fileID: 0}
+  clientDialogue: {fileID: 11400000, guid: 901202548299a8840b80959f1362ebff, type: 2}
   choiceNames: []
   choiceOutcomes: []
-  endPiece: 0
-  scoreValue: 0
+  endPiece: 1
+  scoreValue: 1

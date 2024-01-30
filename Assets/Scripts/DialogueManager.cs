@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -10,12 +11,14 @@ public class DialogueManager : MonoBehaviour
     public Queue<string> sentences;
     private string _name;
 
-    public Text _dialogue_text;
-    public Text _name_text;
+    public TextMeshProUGUI _dialogue_text;
+    public TextMeshProUGUI _name_text;
 
     public GameObject _textBox;
 
     public KeyCode interact;
+
+    private DialogueTreeManager _dialogueTreeManager;
 
 
     // Start is called before the first frame update
@@ -24,6 +27,11 @@ public class DialogueManager : MonoBehaviour
         this.sentences = new Queue<string>();
         this._name = "";
 
+    }
+
+    public void SetTreeManager(DialogueTreeManager treeManager)
+    {
+        _dialogueTreeManager = treeManager;
     }
 
     void Update()
@@ -47,6 +55,8 @@ public class DialogueManager : MonoBehaviour
         this._name = dialogue.Name;
 
         this._textBox.SetActive(true);
+
+        this.DisplayNextSentence();
     }
 
     public void DisplayNextSentence()
@@ -65,6 +75,7 @@ public class DialogueManager : MonoBehaviour
 
     public void EndDialogue()
     {
+        _dialogueTreeManager.DisplayChoices();
         dialogueOn = false;
         this._textBox.SetActive(false);
     }

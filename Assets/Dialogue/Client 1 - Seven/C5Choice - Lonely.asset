@@ -12,8 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
   m_Name: C5Choice - Lonely
   m_EditorClassIdentifier: 
-  clientDialogue: {fileID: 0}
-  choiceNames: []
-  choiceOutcomes: []
+  clientDialogue: {fileID: 11400000, guid: 2df2dfe505db13f49a4b80d461e43df9, type: 2}
+  choiceNames:
+  - You should travel
+  - You should learn to love those around you
+  choiceOutcomes:
+  - {fileID: 11400000, guid: 71bde4c4298b9f9438c38eb64d707f92, type: 2}
+  - {fileID: 11400000, guid: a41a3130f0352fb45a0f8a6946f9079d, type: 2}
   endPiece: 0
   scoreValue: 0

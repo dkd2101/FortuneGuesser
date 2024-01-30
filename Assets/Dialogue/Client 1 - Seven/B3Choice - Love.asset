@@ -12,8 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
   m_Name: B3Choice - Love
   m_EditorClassIdentifier: 
-  clientDialogue: {fileID: 0}
-  choiceNames: []
-  choiceOutcomes: []
+  clientDialogue: {fileID: 11400000, guid: 7e67ddcb1d611534f840cf1ec4cb0c29, type: 2}
+  choiceNames:
+  - You're lonely
+  - You love two different people
+  - You love someone who your parents wouldn't accept
+  choiceOutcomes:
+  - {fileID: 11400000, guid: aaec73d8a79f8f6419d6929ad98cfd6a, type: 2}
+  - {fileID: 11400000, guid: 1214e5756adb4644189ef40f9c004c05, type: 2}
+  - {fileID: 11400000, guid: 1214e5756adb4644189ef40f9c004c05, type: 2}
   endPiece: 0
   scoreValue: 0

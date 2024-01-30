@@ -5,50 +5,57 @@ using UnityEngine.UI;
 
 public class DialogueTreeManager : MonoBehaviour
 {
-    public DialoguePiece currentDialoguePiece;
-    public Transform choiceButtonParent;
-    public GameObject choiceButtonPrefab;
+    public DialoguePiece _currentDialoguePiece;
+    public Transform _choiceButtonParent;
+    public GameObject _choiceButtonPrefab;
+    public DialogueManager _dialogueManager;
 
-    private GameObject[] activeChoiceButtons;
+    private GameObject[] _activeChoiceButtons;
 
     void Start()
     {
-        ResetChoiceButtons();
+        ClearChoices();
+        _dialogueManager.SetTreeManager(this);
+        _dialogueManager.StartDialogue(_currentDialoguePiece.clientDialogue);
     }
 
     public void UpdateDialoguePiece(DialoguePiece dp)
     {
-        currentDialoguePiece = dp;
-        ResetChoiceButtons();
+        _currentDialoguePiece = dp;
+        ClearChoices();
+        _dialogueManager.StartDialogue(_currentDialoguePiece.clientDialogue);
     }
 
-    private void ResetChoiceButtons()
+    public void DisplayChoices()
     {
-        // clear any active choice buttons we might currently have
-        if (activeChoiceButtons != null && activeChoiceButtons.Length > 0)
-        {
-            for (int i = activeChoiceButtons.Length - 1; i >= 0; i--)
-            {
-                Destroy(activeChoiceButtons[i]);
-            }
-        }
-
         // make sure that the dialogue piece has the right number of choice names and outcomes
-        if (currentDialoguePiece.choiceNames.Length != currentDialoguePiece.choiceOutcomes.Length)
+        if (_currentDialoguePiece.choiceNames.Length != _currentDialoguePiece.choiceOutcomes.Length)
         {
-            Debug.LogError("Dialogue Piece " + currentDialoguePiece.name + " must have the same number of choice names and choice outcomes.");
+            Debug.LogError("Dialogue Piece " + _currentDialoguePiece.name + " must have the same number of choice names and choice outcomes.");
         }
 
-        activeChoiceButtons = new GameObject[currentDialoguePiece.choiceOutcomes.Length];
+        _activeChoiceButtons = new GameObject[_currentDialoguePiece.choiceOutcomes.Length];
 
         // set new choice buttons
-        for (int i = 0; i < activeChoiceButtons.Length; i++)
+        for (int i = 0; i < _activeChoiceButtons.Length; i++)
         {
-            activeChoiceButtons[i] = Instantiate(choiceButtonPrefab, choiceButtonParent);
-            ChoiceButtonManager cbManager = activeChoiceButtons[i].GetComponent<ChoiceButtonManager>();
+            _activeChoiceButtons[i] = Instantiate(_choiceButtonPrefab, _choiceButtonParent);
+            ChoiceButtonManager cbManager = _activeChoiceButtons[i].GetComponent<ChoiceButtonManager>();
             cbManager.treeManager = this;
-            cbManager.SetName(currentDialoguePiece.choiceNames[i]);
-            cbManager.outcome = currentDialoguePiece.choiceOutcomes[i];
+            cbManager.SetName(_currentDialoguePiece.choiceNames[i]);
+            cbManager.outcome = _currentDialoguePiece.choiceOutcomes[i];
+        }
+    }
+
+    public void ClearChoices()
+    {
+        // clear any active choice buttons we might currently have
+        if (_activeChoiceButtons != null && _activeChoiceButtons.Length > 0)
+        {
+            for (int i = _activeChoiceButtons.Length - 1; i >= 0; i--)
+            {
+                Destroy(_activeChoiceButtons[i]);
+            }
         }
     }
 }

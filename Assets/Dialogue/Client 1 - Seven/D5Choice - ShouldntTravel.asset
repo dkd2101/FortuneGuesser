@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
   m_Name: D5Choice - ShouldntTravel
   m_EditorClassIdentifier: 
-  clientDialogue: {fileID: 0}
+  clientDialogue: {fileID: 11400000, guid: f521b218a9fa0a847a8cddd230311e19, type: 2}
   choiceNames: []
   choiceOutcomes: []
-  endPiece: 0
-  scoreValue: 0
+  endPiece: 1
+  scoreValue: 1

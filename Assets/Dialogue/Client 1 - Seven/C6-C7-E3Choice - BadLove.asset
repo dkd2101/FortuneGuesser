@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
   m_Name: C6-C7-E3Choice - BadLove
   m_EditorClassIdentifier: 
-  clientDialogue: {fileID: 0}
+  clientDialogue: {fileID: 11400000, guid: fad1b0e181af9ea4e8302bf1663d45f3, type: 2}
   choiceNames: []
   choiceOutcomes: []
-  endPiece: 0
+  endPiece: 1
   scoreValue: 0

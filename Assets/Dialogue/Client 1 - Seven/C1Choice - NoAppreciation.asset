@@ -12,8 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
   m_Name: C1Choice - NoAppreciation
   m_EditorClassIdentifier: 
-  clientDialogue: {fileID: 0}
-  choiceNames: []
-  choiceOutcomes: []
+  clientDialogue: {fileID: 11400000, guid: 87694c0e5a04bfc4898cfa4e1ad3bcf9, type: 2}
+  choiceNames:
+  - You should reconnect with your mom
+  - You should reconnect with your dad
+  - You should reconnect with your sister
+  choiceOutcomes:
+  - {fileID: 11400000, guid: 9ddf123a7a3126d4982c217b8d5a1953, type: 2}
+  - {fileID: 11400000, guid: 6b31b1f2bcd014247be16f42fe54a23e, type: 2}
+  - {fileID: 11400000, guid: 2288f3de84b763940a5dc205825aba63, type: 2}
   endPiece: 0
   scoreValue: 0

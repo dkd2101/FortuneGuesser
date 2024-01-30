@@ -12,8 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
   m_Name: D6-E2-E4-E8Choice - SoWhatShouldIBecome
   m_EditorClassIdentifier: 
-  clientDialogue: {fileID: 0}
-  choiceNames: []
-  choiceOutcomes: []
+  clientDialogue: {fileID: 11400000, guid: cc1970ab2a5de8b4b9ce5e7610ecc4f2, type: 2}
+  choiceNames:
+  - You will become a writer
+  - You will become an acrobat
+  - You will become a lawyer
+  choiceOutcomes:
+  - {fileID: 11400000, guid: 9c1d427fc7ccaa646adf1b1cc1598dab, type: 2}
+  - {fileID: 11400000, guid: 69d6900f54917a84099f9a323fdb053e, type: 2}
+  - {fileID: 11400000, guid: e988ab8b70790284899a0e0f950a93fe, type: 2}
   endPiece: 0
   scoreValue: 0

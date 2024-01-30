@@ -12,8 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
   m_Name: B1Choice - Family
   m_EditorClassIdentifier: 
-  clientDialogue: {fileID: 0}
-  choiceNames: []
-  choiceOutcomes: []
+  clientDialogue: {fileID: 11400000, guid: e686a6cc5ca2aed4798f3f2021460bbf, type: 2}
+  choiceNames:
+  - They don't appreciate you
+  - You want to go travel
+  - You want to pursue a different career
+  choiceOutcomes:
+  - {fileID: 11400000, guid: 576f842c79c8f2f4b87dc131771753e7, type: 2}
+  - {fileID: 11400000, guid: 1a377b4f4d0b8e7459fca50845ece80b, type: 2}
+  - {fileID: 11400000, guid: 7964e7caaa4c36145967355421690700, type: 2}
   endPiece: 0
   scoreValue: 0

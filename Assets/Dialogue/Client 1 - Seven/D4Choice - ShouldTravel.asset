@@ -12,8 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
   m_Name: D4Choice - ShouldTravel
   m_EditorClassIdentifier: 
-  clientDialogue: {fileID: 0}
-  choiceNames: []
-  choiceOutcomes: []
+  clientDialogue: {fileID: 11400000, guid: 1f1f147d4e4d2e6409b1fb505b69d02b, type: 2}
+  choiceNames:
+  - You want to find love
+  - You want to do something different with your life
+  choiceOutcomes:
+  - {fileID: 11400000, guid: 1214e5756adb4644189ef40f9c004c05, type: 2}
+  - {fileID: 11400000, guid: 463c005826fe34d4488a9dd500c9288a, type: 2}
   endPiece: 0
   scoreValue: 0

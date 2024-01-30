@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: A1Choice - Start
   m_EditorClassIdentifier: 
   clientDialogue: {fileID: 11400000, guid: d5a544c5c379ac04da000dd3324265ac, type: 2}
-  choiceNames: []
-  choiceOutcomes: []
+  choiceNames:
+  - You've been conflicted about your family
+  - You've been conflicted about your career
+  - You've been conflicted about love
+  choiceOutcomes:
+  - {fileID: 11400000, guid: 2e3aaa2648c37a3498b487f66f1b3621, type: 2}
+  - {fileID: 11400000, guid: 56f3698f5e5d9ca4488818245fe2cc37, type: 2}
+  - {fileID: 11400000, guid: e3e11545d8ddb0340b829e2f201af4fb, type: 2}
   endPiece: 0
   scoreValue: 0

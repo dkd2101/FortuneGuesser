@@ -12,8 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
   m_Name: B2Choice - Career
   m_EditorClassIdentifier: 
-  clientDialogue: {fileID: 0}
-  choiceNames: []
-  choiceOutcomes: []
+  clientDialogue: {fileID: 11400000, guid: 5a3204dbba6997848a92e34d01ecc778, type: 2}
+  choiceNames:
+  - You want to pursue a different career
+  - You want to go back to undergrad
+  choiceOutcomes:
+  - {fileID: 11400000, guid: 7964e7caaa4c36145967355421690700, type: 2}
+  - {fileID: 11400000, guid: 46c3505648408fd4ebe8a9b07dca43aa, type: 2}
   endPiece: 0
   scoreValue: 0

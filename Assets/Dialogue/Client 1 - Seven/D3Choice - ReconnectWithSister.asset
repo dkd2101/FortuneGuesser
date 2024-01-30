@@ -12,8 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
   m_Name: D3Choice - ReconnectWithSister
   m_EditorClassIdentifier: 
-  clientDialogue: {fileID: 0}
-  choiceNames: []
-  choiceOutcomes: []
+  clientDialogue: {fileID: 11400000, guid: eedd1f7fb5e6cd34c9c2486c03c2afcc, type: 2}
+  choiceNames:
+  - She will understand your career choice
+  - She will stop blaming you
+  choiceOutcomes:
+  - {fileID: 11400000, guid: 463c005826fe34d4488a9dd500c9288a, type: 2}
+  - {fileID: 11400000, guid: 7db1ef75a7958a245b9aa2d8eaa0854f, type: 2}
   endPiece: 0
   scoreValue: 0

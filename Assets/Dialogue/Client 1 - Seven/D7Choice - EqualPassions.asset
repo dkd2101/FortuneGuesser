@@ -12,8 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
   m_Name: D7Choice - EqualPassions
   m_EditorClassIdentifier: 
-  clientDialogue: {fileID: 0}
-  choiceNames: []
-  choiceOutcomes: []
+  clientDialogue: {fileID: 11400000, guid: 218c9074f6e123444976d52b1980aeed, type: 2}
+  choiceNames:
+  - You should pursue one of them
+  - You should pursue them both
+  choiceOutcomes:
+  - {fileID: 11400000, guid: 463c005826fe34d4488a9dd500c9288a, type: 2}
+  - {fileID: 11400000, guid: bb15b24fc711bd245b2f4297020052c1, type: 2}
   endPiece: 0
   scoreValue: 0
