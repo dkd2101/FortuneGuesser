@@ -14,17 +14,17 @@ public class ObjectDisplayView : MonoBehaviour
 
     [SerializeField] GameObject _window;
 
+    public Button _closeDisplay;
+
+    void Start() {
+        this._closeDisplay.onClick.AddListener(DeleteDisplay);
+    }
 
     // Set the evidence information to their repsective text objects in the window
     public void SetDisplayWindow(EvidenceSO evidence) {
         LayoutRebuilder.ForceRebuildLayoutImmediate(this.gameObject.GetComponent<RectTransform>());
         _objectName.text = evidence.EvidenceName;
         _objectDescription.text = evidence.Description;
-    }
-
-    // Display the window to the user
-    public void DisplayObjectInfo() {
-        this._window.SetActive(true);
     }
 
     // Hide the window to the user
