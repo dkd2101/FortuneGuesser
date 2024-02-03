@@ -36,7 +36,7 @@ public class DialogueManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(interact) && dialogueOn)
+        if ((Input.GetKeyDown(interact) || Input.GetMouseButtonDown(0)) && dialogueOn)
         {
             this.DisplayNextSentence();
         }

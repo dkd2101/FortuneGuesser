@@ -9,6 +9,7 @@ public class DialogueTreeManager : MonoBehaviour
     public Transform _choiceButtonParent;
     public GameObject _choiceButtonPrefab;
     public DialogueManager _dialogueManager;
+    public LevelManager _levelmanager;
 
     private GameObject[] _activeChoiceButtons;
 
@@ -28,6 +29,12 @@ public class DialogueTreeManager : MonoBehaviour
 
     public void DisplayChoices()
     {
+        // go to next scene instead if there are no avaliable choices
+        if (_currentDialoguePiece.endPiece)
+        {
+            _levelmanager.LoadNextScene();
+        }
+
         // make sure that the dialogue piece has the right number of choice names and outcomes
         if (_currentDialoguePiece.choiceNames.Length != _currentDialoguePiece.choiceOutcomes.Length)
         {

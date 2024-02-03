@@ -5,34 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
-    // The relationship score
-    float relationshipScore = 0;
-
     // Audio clips for this level
     public AudioClip levelFailedSFX;
     public AudioClip levelPassedSFX;
 
     // If the game is over
-    public static bool isGameOver = false;
+    // public static bool isGameOver = false;
 
     // Player object, this might actually not be that neccessary
-    public GameObject player;
+    // public GameObject player;
 
-    // The never level title, could also do this with a number and the scene thing i forget what its called but like when you build it and the scenes have #s
-    public string nextLevel;
-
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (!isGameOver) { 
-            // So long as the level is not over please update
-        }
-    }
+    // The never scene title, could also do this with a number and the scene thing i forget what its called but like when you build it and the scenes have #s
+    // public string nextScene;
+    // ^^ yeah for now lets just do it with build indices and then we can use strings later if we want branching paths
 
     private void OnGUI()
     {
@@ -40,11 +25,11 @@ public class LevelManager : MonoBehaviour
     }
 
     // A method to change the relationship score for the given level
-    public void addRelationshipScore(float amount)
-    {
-        // This ofc needs to get flushed out more, like does it go below 0 and such
-        this.relationshipScore += amount;
-    }
+    //public void addRelationshipScore(float amount)
+    //{
+    //    // This ofc needs to get flushed out more, like does it go below 0 and such
+    //    this.relationshipScore += amount;
+    //}
 
     // A method to play audio directly to the player. This can be elaborated on if we want to use pitch as a param
     public void playAudio(AudioClip clip) {
@@ -53,9 +38,10 @@ public class LevelManager : MonoBehaviour
     }
 
     // Simply casues the level to repeat on call
+    // Lets change this later. We probably won't repeat levels? Not sure.
     public void LevelLost()
     {
-        isGameOver = true;
+        //isGameOver = true;
         playAudio(levelFailedSFX);
         LoadCurrentLevel(); // Could also envoke it for a certain amount of time
     }
@@ -63,28 +49,20 @@ public class LevelManager : MonoBehaviour
     // Simply causes the level to progress to the next
     public void LevelBeat()
     {
-        isGameOver = true;
+        //isGameOver = true;
         playAudio(levelPassedSFX);
-        // check that there is a next scene to go to
-        if (!string.IsNullOrEmpty(nextLevel))
-        {
-            LoadNextLevel(); // Could also envoke for certain amount of time
-        }
-        else { 
-            // do something here!
-        }
+        LoadNextScene();
     }
 
     // loads the next level
-    private void LoadNextLevel()
+    public void LoadNextScene()
     {
-        SceneManager.LoadScene(nextLevel);
+        SceneManager.LoadScene(gameObject.scene.buildIndex + 1);
     }
 
-    // restatrts current level
+    // restarts current level
     private void LoadCurrentLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-
+        SceneManager.LoadScene(gameObject.scene.buildIndex);
     }
 }
