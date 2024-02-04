@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8ebeb6b9f32147f08b4ca056ca06b5d, type: 3}
+  m_Name: Prologue
+  m_EditorClassIdentifier: 
+  name: You
+  sentences:
+  - (Ok... you can do this)
+  - (Don't be nervous)
+  - (So what if you're not a fortune teller)
+  - (YOU have a Bachelors in Psychology)
+  - (....well you would've if Uncle Davidson didn't steal all of the money that dad
+    left for me)
+  - (Is this wrong...probably.... but what are Fortunes other than psychiatric advice.)

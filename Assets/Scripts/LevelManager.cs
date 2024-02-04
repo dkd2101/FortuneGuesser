@@ -9,11 +9,19 @@ public class LevelManager : MonoBehaviour
     public AudioClip levelFailedSFX;
     public AudioClip levelPassedSFX;
 
+    [SerializeField] private bool hasPrologue;
+
+    [SerializeField] private DialogueSO[] _prologueDialogue;
+
     // If the game is over
     // public static bool isGameOver = false;
 
     // Player object, this might actually not be that neccessary
     // public GameObject player;
+
+    void Start() {
+        LevelStart();
+    }
 
     // The never scene title, could also do this with a number and the scene thing i forget what its called but like when you build it and the scenes have #s
     // public string nextScene;
@@ -36,6 +44,20 @@ public class LevelManager : MonoBehaviour
         Camera.main.GetComponent<AudioSource>().pitch = 1;
         AudioSource.PlayClipAtPoint(clip, Camera.main.transform.position);
     }
+
+    //  Pass in a scene to be played at the beginning of the level
+    public void LevelStart() {
+        if(!this.hasPrologue)
+            return;
+        DialogueManager dm = this.gameObject.GetComponent<DialogueManager>();
+
+        Debug.Log(dm);
+
+        dm.SetPrologueEndListener(this.LoadNextScene);
+        dm.PlayPrologue(this._prologueDialogue);
+    }
+
+    // goes directly to the rummaging scene referenced in the Serialized field
 
     // Simply casues the level to repeat on call
     // Lets change this later. We probably won't repeat levels? Not sure.

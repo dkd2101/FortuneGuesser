@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 using TMPro;
+using System;
+using UnityEngine.Events;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -10,6 +12,10 @@ public class DialogueManager : MonoBehaviour
 
     public Queue<string> sentences;
     private string _name;
+
+    private bool isPrologue;
+
+    private Queue<DialogueSO> _dialogueQueue;
 
     public TextMeshProUGUI _dialogue_text;
     public TextMeshProUGUI _name_text;
@@ -20,18 +26,29 @@ public class DialogueManager : MonoBehaviour
 
     private DialogueTreeManager _dialogueTreeManager;
 
+    public UnityEvent OnDialogueEnded;
+
+    private UnityEvent OnPrologueDialogueEnd;
+
 
     // Start is called before the first frame update
     void Awake()
     {
         this.sentences = new Queue<string>();
         this._name = "";
+        this._dialogueQueue = new Queue<DialogueSO>();
+        OnPrologueDialogueEnd = new UnityEvent();
+        OnDialogueEnded = new UnityEvent();
 
     }
 
     public void SetTreeManager(DialogueTreeManager treeManager)
     {
         _dialogueTreeManager = treeManager;
+    }
+
+    public void SetPrologueEndListener(UnityAction action) {
+        OnPrologueDialogueEnd.AddListener(action);
     }
 
     void Update()
@@ -42,6 +59,13 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    public void PlayPrologue(DialogueSO[] dialogue) {
+        this.isPrologue = true;
+        foreach(DialogueSO d in dialogue) {
+            _dialogueQueue.Enqueue(d);
+        }
+        this.StartDialogue(_dialogueQueue.Dequeue());
+    }
 
     public void StartDialogue(DialogueSO dialogue)
     {
@@ -75,7 +99,19 @@ public class DialogueManager : MonoBehaviour
 
     public void EndDialogue()
     {
-        _dialogueTreeManager.DisplayChoices();
+        if(!isPrologue)
+            _dialogueTreeManager.DisplayChoices();
+        if(isPrologue){
+            if(_dialogueQueue.Count == 0){
+                OnPrologueDialogueEnd.Invoke();
+                isPrologue = false;
+                return;
+            }
+
+            StartDialogue(_dialogueQueue.Dequeue());
+            return;
+        }
+            
         dialogueOn = false;
         this._textBox.SetActive(false);
     }
