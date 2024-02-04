@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/ClientPrologue.unity
+    guid: eaa66757f078945468a711102e651b5a
+  - enabled: 1
     path: Assets/Scenes/RummageScene.unity
     guid: d051bdb8cdd1941e7bc1189d64a03c75
   - enabled: 1

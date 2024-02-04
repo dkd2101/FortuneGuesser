@@ -184,7 +184,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.470765
+  orthographic size: 3.9477894
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -788,6 +788,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelFailedSFX: {fileID: 0}
   levelPassedSFX: {fileID: 0}
+  hasPrologue: 1
+  _prologueDialogue:
+  - {fileID: 11400000, guid: 4714fe7a400a94299b6578ae58965fb5, type: 2}
+  - {fileID: 11400000, guid: dd2e3d423582448f79d5a5e9e2657f4a, type: 2}
+  - {fileID: 11400000, guid: 1ffacc758b06a4d6d8d9c86bb72105ff, type: 2}
+  - {fileID: 11400000, guid: f8f9e706249cc40b683fbdfe56d5f171, type: 2}
+  - {fileID: 11400000, guid: 2c220517905bf49caa52166d55cd3ca6, type: 2}
+  _rummagingIndex: 0
 --- !u!1 &1054693623
 GameObject:
   m_ObjectHideFlags: 0
