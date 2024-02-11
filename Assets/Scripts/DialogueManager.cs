@@ -114,6 +114,7 @@ public class DialogueManager : MonoBehaviour
         string sentence = sentences.Dequeue();
         this._name_text.text = this._name;
         //this._dialogue_text.text = sentence;
+
         this.ShowTypewriterDialogue(sentence);
     }
 

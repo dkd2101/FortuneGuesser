@@ -42,8 +42,22 @@ public class LevelManager : MonoBehaviour
     // A method to play audio directly to the player. This can be elaborated on if we want to use pitch as a param
     public void playAudio(AudioClip clip) {
         Camera.main.GetComponent<AudioSource>().pitch = 1;
+        Camera.main.GetComponent<AudioSource>().loop = true;
         AudioSource.PlayClipAtPoint(clip, Camera.main.transform.position);
     }
+    public void playRepeatAudio(AudioClip clip)
+    {
+        Camera.main.GetComponent<AudioSource>().pitch = 1;
+        Camera.main.GetComponent<AudioSource>().loop = true;
+        AudioSource.PlayClipAtPoint(clip, Camera.main.transform.position);
+    }
+
+    public void cancelRepeatAudio()
+    {
+        Camera.main.GetComponent<AudioSource>().Stop();
+    }
+
+
 
     //  Pass in a scene to be played at the beginning of the level
     public void LevelStart() {
