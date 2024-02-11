@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class ClickableObject : MonoBehaviour, IPointerClickHandler
+public class ClickableObject : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     [SerializeField] private EvidenceSO _objectInfo;
 
@@ -24,13 +24,18 @@ public class ClickableObject : MonoBehaviour, IPointerClickHandler
         }
     }
 
-    public void OnPointerClick(PointerEventData eventData)
+    void IPointerEnterHandler.OnPointerEnter(PointerEventData eventData)
     {
-        Debug.Log("clicked");
-        if(RectTransformUtility.RectangleContainsScreenPoint(_clickArea, eventData.pointerPress.transform.position)) {
-            Debug.Log("contains point");
-            ToggleDisplay();
-        }
+        //if (RectTransformUtility.RectangleContainsScreenPoint(_clickArea, eventData.pointerPress.transform.position))
+        //{
+        //    Debug.Log("contains point");
+        //}
+        ToggleDisplay();
+    }
+
+    void IPointerExitHandler.OnPointerExit(PointerEventData eventData)
+    {
+        ToggleDisplay();
     }
 
     public void ToggleDisplay() {
@@ -55,5 +60,4 @@ public class ClickableObject : MonoBehaviour, IPointerClickHandler
     public void DeleteDisplay() {
         _curView.DeleteDisplay();
     }
-
 }
