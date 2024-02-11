@@ -21,3 +21,5 @@ MonoBehaviour:
   - (....well you would've if Uncle Davidson didn't steal all of the money that dad
     left for me)
   - (Is this wrong...probably.... but what are Fortunes other than psychiatric advice.)
+  objFocus: {fileID: 0}
+  eraseAfterDialogue: 0

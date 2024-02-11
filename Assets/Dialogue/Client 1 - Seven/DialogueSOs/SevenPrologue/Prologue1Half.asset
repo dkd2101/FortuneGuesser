@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b8ebeb6b9f32147f08b4ca056ca06b5d, type: 3}
-  m_Name: Prologue2
+  m_Name: Prologue1Half
   m_EditorClassIdentifier: 
-  name: Seven
+  name: You
   sentences:
-  - 'Hi...I saw that this shop just opened up... '
-  - I'm... interested in getting my fortune told
-  objFocus: {fileID: 6377666082287193216, guid: e57141743f0205641979679d4c265683, type: 3}
+  - No Uelp reviews yet... But I'm sure I can make this a 5-star venue if I work
+    hard enough.
+  - Or if I'm lucky enough.
+  - I just have to make this count.
+  objFocus: {fileID: 2888537492490564462, guid: 5c0f15b711ea2f046bfe680f6223c050, type: 3}
   eraseAfterDialogue: 0

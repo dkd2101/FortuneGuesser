@@ -30,6 +30,10 @@ public class DialogueManager : MonoBehaviour
 
     private UnityEvent OnPrologueDialogueEnd;
 
+    public Transform objFocusParent;
+    private GameObject currentObjFocus;
+    private bool destroyFocus;
+
 
     // Start is called before the first frame update
     void Awake()
@@ -76,6 +80,17 @@ public class DialogueManager : MonoBehaviour
             this.sentences.Enqueue(sentence);
         }
 
+        // spawn objFocus (for monologue) if one exists
+        if (dialogue.objFocus != null)
+        {
+            if (currentObjFocus != null)
+            {
+                Destroy(currentObjFocus);
+            }
+            currentObjFocus = Instantiate(dialogue.objFocus, objFocusParent);
+            destroyFocus = dialogue.eraseAfterDialogue;
+        }
+
         this._name = dialogue.Name;
 
         this._textBox.SetActive(true);
@@ -99,7 +114,14 @@ public class DialogueManager : MonoBehaviour
 
     public void EndDialogue()
     {
-        if(!isPrologue)
+        // destroy objFocus (for monologue) if one exists and should be destroyed
+        if (destroyFocus && currentObjFocus != null)
+        {
+            Destroy(currentObjFocus);
+            currentObjFocus = null;
+        }
+
+        if (!isPrologue)
             _dialogueTreeManager.DisplayChoices();
         if(isPrologue){
             if(_dialogueQueue.Count == 0){
