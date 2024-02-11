@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: You
   sentences:
-  - No Uelp reviews yet... But I'm sure I can make this a 5-star venue if I work
-    hard enough.
-  - Or if I'm lucky enough.
-  - I just have to make this count.
+  - (No Uelp reviews yet... But I'm sure I can make this a 5-star venue if I work
+    hard enough.)
+  - (Or if I'm lucky enough.)
+  - (I just have to make this count.)
   objFocus: {fileID: 2888537492490564462, guid: 5c0f15b711ea2f046bfe680f6223c050, type: 3}
   eraseAfterDialogue: 0

@@ -15,6 +15,6 @@ MonoBehaviour:
   name: Seven
   sentences:
   - 'Hi...I saw that this shop just opened up... '
-  - I'm... interested in getting my fortune told
-  objFocus: {fileID: 6377666082287193216, guid: e57141743f0205641979679d4c265683, type: 3}
+  - I'm... interested in getting my fortune told.
+  objFocus: {fileID: 4933474543557848716, guid: 13dc19a1e82794045b1300f210556f31, type: 3}
   eraseAfterDialogue: 0

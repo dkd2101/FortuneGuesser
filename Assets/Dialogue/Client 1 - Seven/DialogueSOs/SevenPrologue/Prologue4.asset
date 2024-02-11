@@ -14,4 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Seven
   sentences:
-  - Ah ok sure sounds good
+  - Ah, ok sure, sounds good.
+  objFocus: {fileID: 0}
+  eraseAfterDialogue: 0

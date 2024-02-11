@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: You
   sentences:
-  - OH yes hi!
-  - (I need to figure out more about him before we start..)
+  - Oh, yes, hello!
+  - (I need to figure out more about him before we start...)
   - Um... I just need you to fill out some paper work in the front with my assistant
     if you dont mind!
-  - You can leave your bag on the chair right there
+  - You can leave your bag on the chair right there.
+  objFocus: {fileID: 0}
+  eraseAfterDialogue: 0
