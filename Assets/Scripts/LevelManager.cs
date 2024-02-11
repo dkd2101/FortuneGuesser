@@ -47,8 +47,11 @@ public class LevelManager : MonoBehaviour
 
     //  Pass in a scene to be played at the beginning of the level
     public void LevelStart() {
-        if(!this.hasPrologue)
+        if (!this.hasPrologue)
+        {
             return;
+        }
+
         DialogueManager dm = this.gameObject.GetComponent<DialogueManager>();
 
         Debug.Log(dm);

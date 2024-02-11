@@ -697,6 +697,7 @@ GameObject:
   - component: {fileID: 933863399}
   - component: {fileID: 933863398}
   - component: {fileID: 933863401}
+  - component: {fileID: 933863402}
   m_Layer: 0
   m_Name: DialogueManager
   m_TagString: Untagged
@@ -772,6 +773,19 @@ MonoBehaviour:
   levelPassedSFX: {fileID: 0}
   hasPrologue: 0
   _prologueDialogue: []
+--- !u!114 &933863402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933863397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59ce2af2768dcab4ead3ffef766e74a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typewriterSpeed: 50
 --- !u!1 &1054693623
 GameObject:
   m_ObjectHideFlags: 0
