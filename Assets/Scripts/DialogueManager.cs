@@ -141,7 +141,7 @@ public class DialogueManager : MonoBehaviour
         }
             
         dialogueOn = false;
-        this._textBox.SetActive(false);
+        // this._textBox.SetActive(false);
     }
 
     public void ShowTypewriterDialogue(string currentDialogue)

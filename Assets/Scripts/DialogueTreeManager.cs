@@ -41,6 +41,7 @@ public class DialogueTreeManager : MonoBehaviour
             Debug.LogError("Dialogue Piece " + _currentDialoguePiece.name + " must have the same number of choice names and choice outcomes.");
         }
 
+        ClearChoices();
         _activeChoiceButtons = new GameObject[_currentDialoguePiece.choiceOutcomes.Length];
 
         // set new choice buttons
