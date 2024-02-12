@@ -18,6 +18,8 @@ public class ClickableObject : MonoBehaviour, IPointerEnterHandler, IPointerExit
 
     private ObjectDisplayView _curView;
 
+    private bool _isInteractable;
+
     void Start() {
         if(_menuSpawnLocation == null) {
             _menuSpawnLocation = this.gameObject.transform;
@@ -26,16 +28,14 @@ public class ClickableObject : MonoBehaviour, IPointerEnterHandler, IPointerExit
 
     void IPointerEnterHandler.OnPointerEnter(PointerEventData eventData)
     {
-        //if (RectTransformUtility.RectangleContainsScreenPoint(_clickArea, eventData.pointerPress.transform.position))
-        //{
-        //    Debug.Log("contains point");
-        //}
-        ToggleDisplay();
+        if(_isInteractable)
+            ToggleDisplay();
     }
 
     void IPointerExitHandler.OnPointerExit(PointerEventData eventData)
     {
-        ToggleDisplay();
+        if(_isInteractable)
+            ToggleDisplay();
     }
 
     public void ToggleDisplay() {
@@ -59,5 +59,13 @@ public class ClickableObject : MonoBehaviour, IPointerEnterHandler, IPointerExit
 
     public void DeleteDisplay() {
         _curView.DeleteDisplay();
+    }
+
+    public void SetInteractivity(SceneStateManager.Mode mode) {
+        if(mode == SceneStateManager.Mode.Observer) {
+            _isInteractable = true;
+        } else {
+            _isInteractable = false;
+        }
     }
 }
