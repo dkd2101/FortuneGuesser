@@ -5,6 +5,8 @@ using UnityEngine;
 using TMPro;
 using System;
 using UnityEngine.Events;
+using Unity.VisualScripting;
+using System.Runtime.CompilerServices;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -34,10 +36,13 @@ public class DialogueManager : MonoBehaviour
     private GameObject currentObjFocus;
     private bool destroyFocus;
 
+    private TypewriterEffect typewriterEffect;
+
 
     // Start is called before the first frame update
     void Awake()
     {
+        typewriterEffect = GetComponent<TypewriterEffect>();
         this.sentences = new Queue<string>();
         this._name = "";
         this._dialogueQueue = new Queue<DialogueSO>();
@@ -100,7 +105,6 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayNextSentence()
     {
-
         if (sentences.Count == 0)
         {
             Debug.Log("ending the dialogue");
@@ -108,8 +112,10 @@ public class DialogueManager : MonoBehaviour
             return;
         }
         string sentence = sentences.Dequeue();
-        this._dialogue_text.text = sentence;
         this._name_text.text = this._name;
+        //this._dialogue_text.text = sentence;
+
+        this.ShowTypewriterDialogue(sentence);
     }
 
     public void EndDialogue()
@@ -136,5 +142,13 @@ public class DialogueManager : MonoBehaviour
             
         dialogueOn = false;
         this._textBox.SetActive(false);
+    }
+
+    public void ShowTypewriterDialogue(string currentDialogue)
+    {
+        if (currentDialogue != null)
+        {
+            typewriterEffect.Run(currentDialogue, _dialogue_text);
+        }
     }
 }
