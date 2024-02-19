@@ -64,6 +64,11 @@ public class DialogueManager : MonoBehaviour
     {
         if ((Input.GetKeyDown(interact) || Input.GetMouseButtonDown(0)) && dialogueOn)
         {
+            if (PauseMechanic.pauseState)
+            {
+                return;
+            }
+
             this.DisplayNextSentence();
         }
     }

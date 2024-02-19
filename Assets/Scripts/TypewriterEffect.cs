@@ -45,7 +45,7 @@ public class TypewriterEffect : MonoBehaviour
             charindex = Mathf.FloorToInt(t);
             charindex = Mathf.Clamp(charindex, 0, typingText.Length);
             myText.text = typingText.Substring(0, charindex);
-            if (!_audioSource.isPlaying)
+            if (_audioSource != null && !_audioSource.isPlaying)
             {
                 _audioSource.Play();
             }
