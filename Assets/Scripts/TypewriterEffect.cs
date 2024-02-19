@@ -9,11 +9,11 @@ public class TypewriterEffect : MonoBehaviour
 {
     public float typewriterSpeed = 50f; //how fast it goes
 
-    public AudioClip talkingNoise;
+    //public AudioClip talkingNoise;
+    public AudioSource _audioSource;
 
     private void Start()
     {
-        
         Debug.Log("Current speed: " + typewriterSpeed);
     }
     public Coroutine Run(string typingText, TextMeshProUGUI myText)
@@ -25,7 +25,7 @@ public class TypewriterEffect : MonoBehaviour
     private IEnumerator TypeText(string typingText, TextMeshProUGUI myText)
     {
 
-        FindObjectOfType<LevelManager>().playRepeatAudio(this.talkingNoise);
+        //FindObjectOfType<LevelManager>().playRepeatAudio(this.talkingNoise);
         myText.text = string.Empty; //clear box
 
         float t = 0;
@@ -45,6 +45,10 @@ public class TypewriterEffect : MonoBehaviour
             charindex = Mathf.FloorToInt(t);
             charindex = Mathf.Clamp(charindex, 0, typingText.Length);
             myText.text = typingText.Substring(0, charindex);
+            if (!_audioSource.isPlaying)
+            {
+                _audioSource.Play();
+            }
             yield return null;
         }
 
