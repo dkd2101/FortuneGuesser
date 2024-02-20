@@ -12,6 +12,9 @@ public class DialogueSO : ScriptableObject
     [TextArea(3, 10)]
     [SerializeField] private string[] sentences;
 
+    // The voice you want the character to use while talking
+    [SerializeField] private AudioClip voice;
+
     // objFocus represents a gameObject relevant to the monologue,
     // it is instantiated during this dialogue if filled out
     [Header("use only during prologue/monologue")]
@@ -21,4 +24,6 @@ public class DialogueSO : ScriptableObject
     public string Name => name;
 
     public string[] Sentences => sentences;
+
+    public AudioClip Voice => voice;
 }
