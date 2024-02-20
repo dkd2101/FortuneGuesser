@@ -19,3 +19,6 @@ MonoBehaviour:
   - 'He''s already very intertwined with my life, but there''s not a chance I''m
     going to feel comfortable enough opening up to him anytime soon. '
   - I don't think I can do much from here, then. Thank you for your time in any case.
+  voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
+  objFocus: {fileID: 0}
+  eraseAfterDialogue: 0

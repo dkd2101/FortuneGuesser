@@ -18,5 +18,6 @@ MonoBehaviour:
     hard enough.)
   - (Or if I'm lucky enough.)
   - (I just have to make this count.)
+  voice: {fileID: 8300000, guid: 6b17f6bc64e863c4aa82ed1262bce719, type: 3}
   objFocus: {fileID: 2888537492490564462, guid: 5c0f15b711ea2f046bfe680f6223c050, type: 3}
   eraseAfterDialogue: 0

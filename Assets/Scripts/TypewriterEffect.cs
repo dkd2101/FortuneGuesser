@@ -16,13 +16,13 @@ public class TypewriterEffect : MonoBehaviour
     {
         Debug.Log("Current speed: " + typewriterSpeed);
     }
-    public Coroutine Run(string typingText, TextMeshProUGUI myText)
+    public Coroutine Run(string typingText, TextMeshProUGUI myText, AudioClip voice)
     {
         Debug.Log(typingText);
-        return StartCoroutine(TypeText(typingText, myText));
+        return StartCoroutine(TypeText(typingText, myText, voice));
     }
 
-    private IEnumerator TypeText(string typingText, TextMeshProUGUI myText)
+    private IEnumerator TypeText(string typingText, TextMeshProUGUI myText, AudioClip voice)
     {
 
         //FindObjectOfType<LevelManager>().playRepeatAudio(this.talkingNoise);
@@ -47,6 +47,7 @@ public class TypewriterEffect : MonoBehaviour
             myText.text = typingText.Substring(0, charindex);
             if (_audioSource != null && !_audioSource.isPlaying)
             {
+                _audioSource.clip = voice;
                 _audioSource.Play();
             }
             yield return null;
@@ -55,7 +56,7 @@ public class TypewriterEffect : MonoBehaviour
         // precaution 
         myText.text = typingText;
 
-        FindObjectOfType<LevelManager>().cancelRepeatAudio();
+        //FindObjectOfType<LevelManager>().cancelRepeatAudio();
     }
 
     public void setSpeed(float newSpeed)

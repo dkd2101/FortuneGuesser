@@ -17,3 +17,6 @@ MonoBehaviour:
   - 'Maybe you''re right. It would be tricky, but it would also be nice to be be
     close to her again like when we were kids. '
   - But how would that help me here?
+  voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
+  objFocus: {fileID: 0}
+  eraseAfterDialogue: 0

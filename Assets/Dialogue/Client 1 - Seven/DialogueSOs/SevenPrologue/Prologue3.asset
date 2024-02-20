@@ -19,5 +19,6 @@ MonoBehaviour:
   - Um... I just need you to fill out some paper work in the front with my assistant
     if you dont mind!
   - You can leave your bag on the chair right there.
+  voice: {fileID: 8300000, guid: 6b17f6bc64e863c4aa82ed1262bce719, type: 3}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

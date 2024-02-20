@@ -16,3 +16,6 @@ MonoBehaviour:
   sentences:
   - 'It''s true that I might feel a bit distant to some of them. '
   - But who can I safely reconnect with?
+  voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
+  objFocus: {fileID: 0}
+  eraseAfterDialogue: 0
