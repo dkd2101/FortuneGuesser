@@ -16,3 +16,6 @@ MonoBehaviour:
   sentences:
   - 'I have no interest in that, but it''s interesting to hear. '
   - Thank you for the advice though, it's time for me to head out.
+  voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
+  objFocus: {fileID: 0}
+  eraseAfterDialogue: 0

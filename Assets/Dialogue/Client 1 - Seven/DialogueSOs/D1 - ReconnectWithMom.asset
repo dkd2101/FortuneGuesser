@@ -17,3 +17,6 @@ MonoBehaviour:
   - 'Is that all I need to do? My mom and I are already pretty close. '
   - I think there's nothing more I need to do there. Thanks for the help anyway,
     though.
+  voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
+  objFocus: {fileID: 0}
+  eraseAfterDialogue: 0

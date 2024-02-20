@@ -16,3 +16,6 @@ MonoBehaviour:
   sentences:
   - 'Is that it? Well, I guess it comes with the territory of what I''m looking at. '
   - But is it the right thing to do?
+  voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
+  objFocus: {fileID: 0}
+  eraseAfterDialogue: 0

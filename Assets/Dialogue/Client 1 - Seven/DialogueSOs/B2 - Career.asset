@@ -16,3 +16,6 @@ MonoBehaviour:
   sentences:
   - 'How could you tell..? Well, in any case, that''s just it. '
   - I feel stuck in my current role. I need a change...
+  voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
+  objFocus: {fileID: 0}
+  eraseAfterDialogue: 0
