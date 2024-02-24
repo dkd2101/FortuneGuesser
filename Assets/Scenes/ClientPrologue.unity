@@ -944,12 +944,12 @@ MonoBehaviour:
   levelPassedSFX: {fileID: 0}
   hasPrologue: 1
   _prologueDialogue:
-  - {fileID: 11400000, guid: 4714fe7a400a94299b6578ae58965fb5, type: 2}
-  - {fileID: 11400000, guid: 068ae827c7876d0449271870b0141339, type: 2}
-  - {fileID: 11400000, guid: dd2e3d423582448f79d5a5e9e2657f4a, type: 2}
-  - {fileID: 11400000, guid: 1ffacc758b06a4d6d8d9c86bb72105ff, type: 2}
-  - {fileID: 11400000, guid: f8f9e706249cc40b683fbdfe56d5f171, type: 2}
-  - {fileID: 11400000, guid: 2c220517905bf49caa52166d55cd3ca6, type: 2}
+  - {fileID: 11400000, guid: 8a48c5e8842d2b24f8b008bfce286b5d, type: 2}
+  - {fileID: 11400000, guid: 4af496a90ccc9534687d79238091b2f6, type: 2}
+  - {fileID: 11400000, guid: 6ba01781dbaa84847b4d49c72be007bb, type: 2}
+  - {fileID: 11400000, guid: b23254f6574ad7b4da43cc074ff794d8, type: 2}
+  - {fileID: 11400000, guid: 858dbaf0b8427d945adb7cf17c275ff0, type: 2}
+  - {fileID: 11400000, guid: c5ea642f9a795814abb83340cb51f848, type: 2}
 --- !u!114 &933863402
 MonoBehaviour:
   m_ObjectHideFlags: 0
