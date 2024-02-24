@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
+  m_Name: G3Choice - Expectations
+  m_EditorClassIdentifier: 
+  clientDialogue: {fileID: 11400000, guid: e3bb4327e51e6bd46a37fca84ad12be0, type: 2}
+  choiceNames:
+  - Your father
+  - Your sister
+  - Your brother
+  choiceOutcomes:
+  - {fileID: 11400000, guid: 7e136914dec5f174c88ba590b2939734, type: 2}
+  - {fileID: 11400000, guid: fe3b94b8698bba048a5a147fdd1bc55e, type: 2}
+  - {fileID: 11400000, guid: 1da000ab0e58bc842b610154a5a02b46, type: 2}
+  endPiece: 0
+  scoreValue: 0

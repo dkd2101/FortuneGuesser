@@ -12,28 +12,45 @@ public class TypewriterEffect : MonoBehaviour
     //public AudioClip talkingNoise;
     public AudioSource _audioSource;
 
+    private TextMeshProUGUI textBox;
+    private string currentText;
+
     private void Start()
     {
         Debug.Log("Current speed: " + typewriterSpeed);
     }
+
+    public bool DoneTyping()
+    {
+        return (textBox == null || currentText == null || textBox.text == currentText);
+    }
+
+    public void EndEffect()
+    {
+        textBox.text = currentText;
+        StopAllCoroutines();
+    }
+
     public Coroutine Run(string typingText, TextMeshProUGUI myText, AudioClip voice)
     {
         Debug.Log(typingText);
-        return StartCoroutine(TypeText(typingText, myText, voice));
+        textBox = myText;
+        currentText = typingText;
+        return StartCoroutine(TypeText(voice));
     }
 
-    private IEnumerator TypeText(string typingText, TextMeshProUGUI myText, AudioClip voice)
+    private IEnumerator TypeText(AudioClip voice)
     {
 
         //FindObjectOfType<LevelManager>().playRepeatAudio(this.talkingNoise);
-        myText.text = string.Empty; //clear box
+        textBox.text = string.Empty; //clear box
 
         float t = 0;
         int charindex = 0;
 
         float currentSpeed = typewriterSpeed; // this cannot be changed mid typeing.
 
-        while (charindex < typingText.Length)
+        while (charindex < currentText.Length)
         {
             // if at any time space is pressed just break the while loop.
             if (Input.GetKeyDown(KeyCode.F))
@@ -43,8 +60,8 @@ public class TypewriterEffect : MonoBehaviour
             // char at a time given the speed
             t += Time.deltaTime * currentSpeed;
             charindex = Mathf.FloorToInt(t);
-            charindex = Mathf.Clamp(charindex, 0, typingText.Length);
-            myText.text = typingText.Substring(0, charindex);
+            charindex = Mathf.Clamp(charindex, 0, currentText.Length);
+            textBox.text = currentText.Substring(0, charindex);
             if (_audioSource != null && !_audioSource.isPlaying)
             {
                 _audioSource.clip = voice;
@@ -54,7 +71,7 @@ public class TypewriterEffect : MonoBehaviour
         }
 
         // precaution 
-        myText.text = typingText;
+        textBox.text = currentText;
 
         //FindObjectOfType<LevelManager>().cancelRepeatAudio();
     }

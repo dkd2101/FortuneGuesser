@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
+  m_Name: F5Choice - HesComparingYou
+  m_EditorClassIdentifier: 
+  clientDialogue: {fileID: 11400000, guid: afa02a9819ac26a4ab9b1c0c6e3445ee, type: 2}
+  choiceNames:
+  - You resent your father and sister
+  - You don't need to be anything more than who you are
+  choiceOutcomes:
+  - {fileID: 11400000, guid: 216de2e4220f63c41929261254eb3544, type: 2}
+  - {fileID: 11400000, guid: 731b79fc9f8bace4db3439fd113ee53e, type: 2}
+  endPiece: 0
+  scoreValue: 0

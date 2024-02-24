@@ -119,11 +119,20 @@ public class DialogueManager : MonoBehaviour
             EndDialogue();
             return;
         }
-        string sentence = sentences.Dequeue();
-        this._name_text.text = this._name;
-        //this._dialogue_text.text = sentence;
+        else
+        {
+            if (typewriterEffect.DoneTyping())
+            {
+                string sentence = sentences.Dequeue();
+                this._name_text.text = this._name;
 
-        this.ShowTypewriterDialogue(sentence, this.currentVoice);
+                this.ShowTypewriterDialogue(sentence, this.currentVoice);
+            }
+            else
+            {
+                typewriterEffect.EndEffect();
+            }
+        }
     }
 
     public void EndDialogue()

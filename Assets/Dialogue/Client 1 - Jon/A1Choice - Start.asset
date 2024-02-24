@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
+  m_Name: A1Choice - Start
+  m_EditorClassIdentifier: 
+  clientDialogue: {fileID: 11400000, guid: b36deb0a75f7fd74da61f2d9c3eca161, type: 2}
+  choiceNames:
+  - You've been conflicted about your family
+  - You've been conflicted about your career
+  - You've been conflicted about love
+  choiceOutcomes:
+  - {fileID: 11400000, guid: 75e68d9801e3b1141a4d4f4db4828252, type: 2}
+  - {fileID: 11400000, guid: d3f713fa7a2ab8a42ac135fcb4209da6, type: 2}
+  - {fileID: 11400000, guid: 8328711cd02a94a49a401ea39b481b64, type: 2}
+  endPiece: 0
+  scoreValue: 0

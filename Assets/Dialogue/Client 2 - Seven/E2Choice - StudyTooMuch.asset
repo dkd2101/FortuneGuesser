@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
+  m_Name: E2Choice - StudyTooMuch
+  m_EditorClassIdentifier: 
+  clientDialogue: {fileID: 11400000, guid: 8bd496319e4686f4786b0db5fed512f4, type: 2}
+  choiceNames:
+  - Too much pressure will soon break you
+  - You don't want to become a lawyer
+  choiceOutcomes:
+  - {fileID: 11400000, guid: a8c1a46151ff3984191346e73124f857, type: 2}
+  - {fileID: 11400000, guid: 0489ef2a149fd664c982d719c879474b, type: 2}
+  endPiece: 0
+  scoreValue: 0

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
+  m_Name: B2Choice - Career
+  m_EditorClassIdentifier: 
+  clientDialogue: {fileID: 11400000, guid: 60dc21ec75e85ee40aeb4ea5bea4b39e, type: 2}
+  choiceNames:
+  - You're scared to pursue your passions
+  - Your parents are pushing you to be something you aren't
+  choiceOutcomes:
+  - {fileID: 11400000, guid: 68c25a58824743c42b5ebd1d6a7bb9b7, type: 2}
+  - {fileID: 11400000, guid: b94f15fccfe3ee8428128b41facae5d3, type: 2}
+  endPiece: 0
+  scoreValue: 0

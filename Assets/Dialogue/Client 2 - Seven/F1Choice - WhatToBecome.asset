@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
+  m_Name: F1Choice - WhatToBecome
+  m_EditorClassIdentifier: 
+  clientDialogue: {fileID: 11400000, guid: 8a4be3c6ae6951a43804b142425dcceb, type: 2}
+  choiceNames:
+  - You will become an acrobat
+  - You will become a politician
+  choiceOutcomes:
+  - {fileID: 11400000, guid: fe093b8b0edc32c46a346c8988ee1731, type: 2}
+  - {fileID: 11400000, guid: 959b4d56bf74f32459b333d9936e0b80, type: 2}
+  endPiece: 0
+  scoreValue: 0

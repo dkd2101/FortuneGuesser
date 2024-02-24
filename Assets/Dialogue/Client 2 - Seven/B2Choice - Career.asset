@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
+  m_Name: B2Choice - Career
+  m_EditorClassIdentifier: 
+  clientDialogue: {fileID: 11400000, guid: 22474c22042a14f42815f77c79391b6a, type: 2}
+  choiceNames:
+  - I see you stressed and scared
+  - I see you succeeding in your future
+  - I see you successful but empty
+  choiceOutcomes:
+  - {fileID: 11400000, guid: a972d9a145e79234ca580952379e90d5, type: 2}
+  - {fileID: 11400000, guid: 2b4c6e6f273c9234b916fc066aef685c, type: 2}
+  - {fileID: 11400000, guid: aadd70bc292f5974d9aa73a8470490a9, type: 2}
+  endPiece: 0
+  scoreValue: 0
