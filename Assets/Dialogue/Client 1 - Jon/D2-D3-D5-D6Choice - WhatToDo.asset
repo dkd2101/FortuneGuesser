@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
+  m_Name: D2-D3-D5-D6Choice - WhatToDo
+  m_EditorClassIdentifier: 
+  clientDialogue: {fileID: 11400000, guid: d29824a8953e5b44e909abe5946f8316, type: 2}
+  choiceNames:
+  - You want to become a influencer
+  - You want to become a dancer
+  - You want to become a priest
+  choiceOutcomes:
+  - {fileID: 11400000, guid: 383870fc231fd5d4583dc1ce0c57764a, type: 2}
+  - {fileID: 11400000, guid: 86db5507e3fd23e418fb085fb341e23a, type: 2}
+  - {fileID: 11400000, guid: 4fab3650ad4648b46bf0676374627ee1, type: 2}
+  endPiece: 0
+  scoreValue: 0

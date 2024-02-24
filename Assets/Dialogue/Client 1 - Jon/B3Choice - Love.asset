@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
+  m_Name: B3Choice - Love
+  m_EditorClassIdentifier: 
+  clientDialogue: {fileID: 11400000, guid: 8d22232a857e6dc4bb53fb02a12057f9, type: 2}
+  choiceNames:
+  - You're lonely
+  - You love two different people
+  - You love someone who your parents wouldn't accept
+  choiceOutcomes:
+  - {fileID: 11400000, guid: da5cf2606cf83834abaccf99f2a2de7a, type: 2}
+  - {fileID: 11400000, guid: bd47b9f046ca7b44db0b6b50884025cd, type: 2}
+  - {fileID: 11400000, guid: bd47b9f046ca7b44db0b6b50884025cd, type: 2}
+  endPiece: 0
+  scoreValue: 0

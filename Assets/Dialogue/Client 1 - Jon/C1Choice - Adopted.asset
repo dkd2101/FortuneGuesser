@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
+  m_Name: C1Choice - Adopted
+  m_EditorClassIdentifier: 
+  clientDialogue: {fileID: 11400000, guid: f362661aafa0d2a44b8d43acdd593d18, type: 2}
+  choiceNames:
+  - You need to find out more about your real parents
+  - Your parents will support you with whatever goals you have
+  choiceOutcomes:
+  - {fileID: 11400000, guid: 57536217c7dcb204eb9638c5b27fe5f1, type: 2}
+  - {fileID: 11400000, guid: c33a7453ef808a1469614bb22f1b21dc, type: 2}
+  endPiece: 0
+  scoreValue: 0

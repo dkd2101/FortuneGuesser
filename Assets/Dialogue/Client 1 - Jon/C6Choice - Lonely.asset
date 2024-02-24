@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
+  m_Name: C6Choice - Lonely
+  m_EditorClassIdentifier: 
+  clientDialogue: {fileID: 11400000, guid: 1c9dcb7263e1c7544a5c010160ad148b, type: 2}
+  choiceNames:
+  - You should join a club to pursue your passions
+  - You should try to make more friends
+  choiceOutcomes:
+  - {fileID: 11400000, guid: c33a7453ef808a1469614bb22f1b21dc, type: 2}
+  - {fileID: 11400000, guid: 77d1d2ed5b3e6a941acb55a35de8ec5a, type: 2}
+  endPiece: 0
+  scoreValue: 0
