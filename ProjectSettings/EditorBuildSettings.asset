@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Client1_Jon.unity
     guid: be9fceb994466204aa74b5c764fb6727
   - enabled: 1
+    path: Assets/Scenes/Client2_Seven.unity
+    guid: ccf47ecca471c01448262b369f0c8e20
+  - enabled: 1
     path: Assets/Scenes/TemporaryEndScene.unity
     guid: d5247bc6260ad144d81e698aac81af65
   - enabled: 1

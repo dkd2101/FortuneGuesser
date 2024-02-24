@@ -10,13 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b8ebeb6b9f32147f08b4ca056ca06b5d, type: 3}
-  m_Name: Prologue2
+  m_Name: Prologue2Half
   m_EditorClassIdentifier: 
   name: You
   sentences:
-  - (No Uelp reviews yet... But I'm sure I can make this a 5-star venue if I work
-    hard enough.)
-  - (Or if I'm lucky enough.)
+  - (I just have to make this count.)
   voice: {fileID: 8300000, guid: 6b17f6bc64e863c4aa82ed1262bce719, type: 3}
-  objFocus: {fileID: 2888537492490564462, guid: 5c0f15b711ea2f046bfe680f6223c050, type: 3}
-  eraseAfterDialogue: 0
+  objFocus: {fileID: 5097757519008297900, guid: 3b9a231d03af22f409e542c3540d1529, type: 3}
+  eraseAfterDialogue: 1

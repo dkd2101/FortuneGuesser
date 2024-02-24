@@ -946,6 +946,7 @@ MonoBehaviour:
   _prologueDialogue:
   - {fileID: 11400000, guid: 8a48c5e8842d2b24f8b008bfce286b5d, type: 2}
   - {fileID: 11400000, guid: 4af496a90ccc9534687d79238091b2f6, type: 2}
+  - {fileID: 11400000, guid: 98e77c203bedba040a2e93c3707fa236, type: 2}
   - {fileID: 11400000, guid: 6ba01781dbaa84847b4d49c72be007bb, type: 2}
   - {fileID: 11400000, guid: b23254f6574ad7b4da43cc074ff794d8, type: 2}
   - {fileID: 11400000, guid: 858dbaf0b8427d945adb7cf17c275ff0, type: 2}

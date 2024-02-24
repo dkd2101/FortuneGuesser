@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientDialogue: {fileID: 11400000, guid: 91585b3108e7e62449c818793235926c, type: 2}
   choiceNames:
-  - 
-  - 
+  - Your feelings are difficult to describe in words
+  - Her success makes you feel pressured
   choiceOutcomes:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 41ad9b4df109cd947849ff1d75c056a9, type: 2}
+  - {fileID: 11400000, guid: 219183745b8d5d743a16867b10a99929, type: 2}
   endPiece: 0
   scoreValue: 0
