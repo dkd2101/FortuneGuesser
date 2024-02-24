@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
+  m_Name: D3Choice - Exams
+  m_EditorClassIdentifier: 
+  clientDialogue: {fileID: 11400000, guid: ecc859357f3c94f4fa65d85b00cd8a79, type: 2}
+  choiceNames:
+  - You study too much
+  - If you continue to study hard the exam will work out
+  - You're aspiring to be someone your not
+  choiceOutcomes:
+  - {fileID: 11400000, guid: 2743ba406bfaf444082cb88d01fe9e09, type: 2}
+  - {fileID: 11400000, guid: 375d9438b14c05545ae6c7fe7a1ae02b, type: 2}
+  - {fileID: 11400000, guid: 616bdc22001f23f4c8aaa0a59f8e7f8c, type: 2}
+  endPiece: 0
+  scoreValue: 0

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
+  m_Name: C2Choice - StressedScared
+  m_EditorClassIdentifier: 
+  clientDialogue: {fileID: 11400000, guid: 884a166b665088b4996e4d483059c42b, type: 2}
+  choiceNames:
+  - You feel pressured by someone in your family
+  - You feel pressured by your exams
+  choiceOutcomes:
+  - {fileID: 11400000, guid: 4990a76f3a5139d498f6959527232fb1, type: 2}
+  - {fileID: 11400000, guid: 9f701c1a35a90c74595a9d2dd1d85844, type: 2}
+  endPiece: 0
+  scoreValue: 0

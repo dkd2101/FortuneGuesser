@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8ebeb6b9f32147f08b4ca056ca06b5d, type: 3}
+  m_Name: I2 - DontTalkToSister
+  m_EditorClassIdentifier: 
+  name: Seven
+  sentences:
+  - 'Maybe you''re right. Every time I see her I hurt more and more. '
+  - 'And she obviously doesn''t care about how her actions are affecting me. '
+  - 'I think it''s better that this distance between us exists now. '
+  - 'Sometimes things in the past are meant to only be memories. '
+  - Thank you for the advice.
+  voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
+  objFocus: {fileID: 0}
+  eraseAfterDialogue: 0

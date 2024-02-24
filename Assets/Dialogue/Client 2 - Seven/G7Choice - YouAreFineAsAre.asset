@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
+  m_Name: G7Choice - YouAreFineAsAre
+  m_EditorClassIdentifier: 
+  clientDialogue: {fileID: 11400000, guid: 2cf40ed1e9f00f2478ca1e1c1b31fc70, type: 2}
+  choiceNames:
+  - Her success makes you feel pressured
+  - Your feelings are difficult to describe in words
+  choiceOutcomes:
+  - {fileID: 11400000, guid: 219183745b8d5d743a16867b10a99929, type: 2}
+  - {fileID: 11400000, guid: 41ad9b4df109cd947849ff1d75c056a9, type: 2}
+  endPiece: 0
+  scoreValue: 0

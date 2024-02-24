@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
+  m_Name: C5Choice - StrainedRelationship
+  m_EditorClassIdentifier: 
+  clientDialogue: {fileID: 11400000, guid: e8806d93f498f8e40b4824ac8d728d89, type: 2}
+  choiceNames:
+  - I'm not
+  - Uh...let me consult the spirits once more
+  choiceOutcomes:
+  - {fileID: 11400000, guid: e823b80ba3260ef4d96639f023ff67fc, type: 2}
+  - {fileID: 11400000, guid: 019eb25aa9abc0c44878b13d11a1ffec, type: 2}
+  endPiece: 0
+  scoreValue: 0

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
+  m_Name: B1Choice - Family
+  m_EditorClassIdentifier: 
+  clientDialogue: {fileID: 11400000, guid: 4159f353e6339254f848ff803f6d031a, type: 2}
+  choiceNames:
+  - I see you stressed and scared
+  - You're family is holding you back
+  choiceOutcomes:
+  - {fileID: 11400000, guid: a972d9a145e79234ca580952379e90d5, type: 2}
+  - {fileID: 11400000, guid: a4f58d275884e6348802c2a59658ea6f, type: 2}
+  endPiece: 0
+  scoreValue: 0
