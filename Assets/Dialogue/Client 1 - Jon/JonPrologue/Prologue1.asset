@@ -14,13 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: You
   sentences:
-  - (Ok... you can do this)
-  - (Don't be nervous)
-  - (So what if you're not a fortune teller)
-  - (YOU have a Bachelors in Psychology)
-  - (....well you would've if Uncle Davidson didn't steal all of the money that dad
-    left for me)
-  - (Is this wrong...probably.... but what are Fortunes other than psychiatric advice.)
+  - (Ok... you can do this.)
+  - (Don't be nervous.)
+  - (So what if you're not a fortune teller.)
+  - (YOU have a Bachelors in Psychology.)
+  - (....well, you would've if Uncle Davidson didn't steal all of the money that
+    dad left for me.)
+  - (Is this wrong... probably... but what are fortunes other than psychiatric advice
+    anyway.)
   voice: {fileID: 8300000, guid: 6b17f6bc64e863c4aa82ed1262bce719, type: 3}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Jon
   sentences:
-  - Yo... I just saw this store opened
+  - Yo... I just saw this store opened.
   - You're a fortune teller right? Can you tell my fortune, doc?
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 2734058306360250496, guid: 804b5a0c849004b46aee7ffc42e59155, type: 3}

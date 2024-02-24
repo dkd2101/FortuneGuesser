@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: You
   sentences:
-  - (Nows my chance, let's see what hes got on him right now!)
+  - (Now's my chance, let's see what he's got on him right now!)
   voice: {fileID: 8300000, guid: 6b17f6bc64e863c4aa82ed1262bce719, type: 3}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0
