@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: FamilyPhoto
   m_EditorClassIdentifier: 
   EvidenceName: Nice Family Photo
-  Description: Looks like a family photo. The house in the background looks very
-    nice.
+  Description: A photo with two siblings happily smiling. The boy looks shy but the
+    girl next to him wearing a gold necklace is joyfully hugging him.
   EvidenceImage: {fileID: -407570832, guid: e4d53843ebd328846b3deed8e1c7d44e, type: 3}

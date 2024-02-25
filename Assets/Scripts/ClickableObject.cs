@@ -18,7 +18,7 @@ public class ClickableObject : MonoBehaviour, IPointerEnterHandler, IPointerExit
 
     private ObjectDisplayView _curView;
 
-    private bool _isInteractable = true;
+    public bool _isInteractable = true;
 
     void Start() {
         if(_menuSpawnLocation == null) {
