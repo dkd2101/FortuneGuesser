@@ -12,11 +12,17 @@ EditorBuildSettings:
     path: Assets/Scenes/ClientPrologue.unity
     guid: eaa66757f078945468a711102e651b5a
   - enabled: 1
-    path: Assets/Scenes/RummageScene.unity
-    guid: d051bdb8cdd1941e7bc1189d64a03c75
+    path: Assets/Scenes/Client1_Jon_Rummage.unity
+    guid: e1c7ba3e9a6984a37baa0a5d06312ef8
   - enabled: 1
     path: Assets/Scenes/Client1_Jon.unity
     guid: be9fceb994466204aa74b5c764fb6727
+  - enabled: 1
+    path: Assets/Scenes/Client2_Prologue.unity
+    guid: 5e5c972b930ae4e47ac5d577c355c432
+  - enabled: 1
+    path: Assets/Scenes/RummageScene.unity
+    guid: d051bdb8cdd1941e7bc1189d64a03c75
   - enabled: 1
     path: Assets/Scenes/Client2_Seven.unity
     guid: ccf47ecca471c01448262b369f0c8e20

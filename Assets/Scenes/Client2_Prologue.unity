@@ -926,13 +926,12 @@ MonoBehaviour:
   levelPassedSFX: {fileID: 0}
   hasPrologue: 1
   _prologueDialogue:
-  - {fileID: 11400000, guid: 8a48c5e8842d2b24f8b008bfce286b5d, type: 2}
-  - {fileID: 11400000, guid: 4af496a90ccc9534687d79238091b2f6, type: 2}
-  - {fileID: 11400000, guid: 98e77c203bedba040a2e93c3707fa236, type: 2}
-  - {fileID: 11400000, guid: 6ba01781dbaa84847b4d49c72be007bb, type: 2}
-  - {fileID: 11400000, guid: b23254f6574ad7b4da43cc074ff794d8, type: 2}
-  - {fileID: 11400000, guid: 858dbaf0b8427d945adb7cf17c275ff0, type: 2}
-  - {fileID: 11400000, guid: c5ea642f9a795814abb83340cb51f848, type: 2}
+  - {fileID: 11400000, guid: 7890f0f853134469588608d0e3f8908f, type: 2}
+  - {fileID: 11400000, guid: 31669103253b44c309cc49ad179006dc, type: 2}
+  - {fileID: 11400000, guid: c4c150046847740e7b613ab5233977a5, type: 2}
+  - {fileID: 11400000, guid: 4b9cbe71352ca493590dbb917568df5a, type: 2}
+  - {fileID: 11400000, guid: 39151b37f19de4385b9b828f06ab9d76, type: 2}
+  - {fileID: 11400000, guid: fbdf07c614b3340669c2401220bc6708, type: 2}
 --- !u!114 &933863402
 MonoBehaviour:
   m_ObjectHideFlags: 0

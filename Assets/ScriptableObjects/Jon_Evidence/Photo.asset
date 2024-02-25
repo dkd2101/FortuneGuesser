@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8bb86f6f6c77c4a069d82a2bd9f1d1e0, type: 3}
-  m_Name: Notebook
+  m_Name: Photo
   m_EditorClassIdentifier: 
-  EvidenceName: Neat Spiral Notebook
-  Description: A new notebook from his father with a note stating "your sister used
-    something similar when she aced her exams"
-  EvidenceImage: {fileID: -1370461653, guid: e4d53843ebd328846b3deed8e1c7d44e, type: 3}
+  EvidenceName: Group Photo
+  Description: "4 to 5 people dance group photo, Jon\u2019s teammates must love him
+    a lot"
+  EvidenceImage: {fileID: 0}

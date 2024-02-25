@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: BeatUpTextbook
   m_EditorClassIdentifier: 
   EvidenceName: Beat Up Textbook
-  Description: A law textbook that's definitely seen better days. It's all torn and
-    beaten up. There are a lot of random drawings on it
+  Description: A law textbook beat up with lots of notes within the margins
   EvidenceImage: {fileID: 2139515395, guid: e4d53843ebd328846b3deed8e1c7d44e, type: 3}
