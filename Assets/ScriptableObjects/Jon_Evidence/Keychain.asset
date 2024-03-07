@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Keychain
   m_EditorClassIdentifier: 
   EvidenceName: TK Keychain
-  Description: Merch from the popular dancing boy group TK. It looks pretty clean,
-    though. Has it not been used?
+  Description: "Merch from the popular dancing boy group TK. I wonder why it\u2019s
+    inside his bag instead of clipped to it?"
   EvidenceImage: {fileID: 0}
