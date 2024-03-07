@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bb86f6f6c77c4a069d82a2bd9f1d1e0, type: 3}
+  m_Name: Wallet
+  m_EditorClassIdentifier: 
+  EvidenceName: Wallet
+  Description: "There is a note, \u201CIf found, return to Pastor John\u2019s Family
+    at Linton Church.\" There\u2019s also a photo of a small Zom boy praying next
+    to a priest. They're both smiling."
+  EvidenceImage: {fileID: 0}
