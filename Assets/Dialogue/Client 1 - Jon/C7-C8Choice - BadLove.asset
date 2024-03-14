@@ -17,3 +17,4 @@ MonoBehaviour:
   choiceOutcomes: []
   endPiece: 1
   scoreValue: 0
+  finalReview: {fileID: 11400000, guid: 8fb8acd5e41be744e8967c7d2e2454b7, type: 2}

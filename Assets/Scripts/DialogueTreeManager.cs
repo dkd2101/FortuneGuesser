@@ -32,6 +32,7 @@ public class DialogueTreeManager : MonoBehaviour
         // go to next scene instead if there are no avaliable choices
         if (_currentDialoguePiece.endPiece)
         {
+            UelpSystem._featuredReview = _currentDialoguePiece.finalReview;
             _levelmanager.LoadNextScene();
         }
 

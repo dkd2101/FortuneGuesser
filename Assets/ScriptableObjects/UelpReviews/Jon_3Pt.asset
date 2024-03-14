@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb3a84b4cbea6e45979c4c770f4ecd0, type: 3}
+  m_Name: Jon_3Pt
+  m_EditorClassIdentifier: 
+  OPName: HolyZom4Ever
+  review: Ok so you GOT to go here. Fortune teller bro changed my life. Turns out
+    I'm not the only one with a strong passion in life, and I just had to look around
+    for friends. Crazy how that works. Thank you man, I'm gonna do my best forever
+    now. Zom on.
+  starCount: 5

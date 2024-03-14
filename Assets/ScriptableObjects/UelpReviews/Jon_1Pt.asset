@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb3a84b4cbea6e45979c4c770f4ecd0, type: 3}
+  m_Name: Jon_1Pt
+  m_EditorClassIdentifier: 
+  OPName: HolyZom4Ever
+  review: Idk, I guess I learned some stuff, but I keep doubting it. Bro gave me
+    some weird advice. I honestly don't think I'm gonna listen to them. I'll just
+    keep on keeping to myself for now. Zom on.
+  starCount: 2

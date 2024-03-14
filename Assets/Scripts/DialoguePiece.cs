@@ -10,5 +10,6 @@ public class DialoguePiece : ScriptableObject
 
     [Header("End Piece Variables")]
     public bool endPiece = false;
-    public int scoreValue = 0;
+    //public int scoreValue = 0;
+    public UelpReviewSO finalReview;
 }
