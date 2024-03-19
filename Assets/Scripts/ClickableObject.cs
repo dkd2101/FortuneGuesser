@@ -52,7 +52,6 @@ public class ClickableObject : MonoBehaviour, IPointerEnterHandler, IPointerExit
     public void CreateItemView() {
         ObjectDisplayView newView = Instantiate(_display, this._menuSpawnLocation);
         newView.SetDisplayWindow(this._objectInfo);
-        newView._closeDisplay.onClick.AddListener(ToggleDisplay);
 
         _curView = newView;
     }
