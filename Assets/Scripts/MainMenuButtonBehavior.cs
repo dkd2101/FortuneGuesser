@@ -13,7 +13,6 @@ public class MainMenuButtonBehavior : MonoBehaviour
         GameObject temp = GameObject.FindGameObjectWithTag("LevelManager");
         if (temp != null)
         {
-            Debug.Log("here");
             temp.GetComponent<LevelManager>().LoadAScene(_toSceneNumber);
         }
         else
