@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private bool hasPrologue;
 
     [SerializeField] private DialogueSO[] _prologueDialogue;
+
+    public Image fadeToBlack;
 
     // If the game is over
     // public static bool isGameOver = false;
@@ -96,12 +99,46 @@ public class LevelManager : MonoBehaviour
     // loads the next level
     public void LoadNextScene()
     {
-        SceneManager.LoadScene(gameObject.scene.buildIndex + 1);
+        LoadAScene(gameObject.scene.buildIndex + 1);
     }
 
     // restarts current level
     private void LoadCurrentLevel()
     {
-        SceneManager.LoadScene(gameObject.scene.buildIndex);
+        LoadAScene(gameObject.scene.buildIndex);
     }
+
+    public void LoadAScene(int scene) {
+
+        if (this.fadeToBlack != null)
+        {
+            StartCoroutine(IncreaseNumberAndLoadScene(scene));
+        }
+        else {
+            SceneManager.LoadScene(scene);
+        }
+    }
+
+    private float transparent = 0f;
+
+    IEnumerator IncreaseNumberAndLoadScene(int scene)
+    {
+        while (true)
+        {
+            // Increase the current number
+            transparent = (transparent + 0.01f);
+
+            if (this.fadeToBlack.color.a > 0.99f)
+            {
+                Debug.Log("Please get here");
+                SceneManager.LoadScene(scene);
+                break;
+            }
+
+            this.fadeToBlack.color = new Color(this.fadeToBlack.color.r, this.fadeToBlack.color.g, this.fadeToBlack.color.b, transparent);
+
+            yield return null;
+        }
+    }
+
 }
