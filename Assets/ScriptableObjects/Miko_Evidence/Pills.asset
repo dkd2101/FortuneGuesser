@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8bb86f6f6c77c4a069d82a2bd9f1d1e0, type: 3}
-  m_Name: AcrobatFlier
+  m_Name: Pills
   m_EditorClassIdentifier: 
-  EvidenceName: Acrobatics Poster
-  Description: An advert for a intermediate acrobatics class. It looks almost neat
-    in comparison to most of his other items.
-  EvidenceImage: {fileID: 0}
+  EvidenceName: Medication
+  Description: Sleeping pills with a prescription label. Seems like she got a month's
+    worth a few days ago. She barely has any left.
+  EvidenceImage: {fileID: -574102928, guid: 2cab6edcf4ca7564e8c1641d65c96712, type: 3}

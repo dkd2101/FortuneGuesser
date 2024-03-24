@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8bb86f6f6c77c4a069d82a2bd9f1d1e0, type: 3}
-  m_Name: Seven
+  m_Name: Miko
   m_EditorClassIdentifier: 
-  EvidenceName: Seven
-  Description: A tired looking college student. He seems antsy and unconfident in
-    himself. He doesn't seem comfortable in making choices for himself.
-  EvidenceImage: {fileID: 0}
+  EvidenceName: Miko
+  Description: A vampire who has lived at least a few of my lifetimes. She seems
+    like she has put up a few walls to protect herself.
+  EvidenceImage: {fileID: 21300000, guid: f2975f1c1aaee5549a0db38797863627, type: 3}

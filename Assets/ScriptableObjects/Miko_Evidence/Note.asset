@@ -10,9 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8bb86f6f6c77c4a069d82a2bd9f1d1e0, type: 3}
-  m_Name: FamilyPhoto
+  m_Name: Note
   m_EditorClassIdentifier: 
-  EvidenceName: Nice Family Photo
-  Description: A photo with two siblings happily smiling. The boy looks shy but the
-    girl next to him wearing a gold necklace is joyfully hugging him.
-  EvidenceImage: {fileID: -407570832, guid: e4d53843ebd328846b3deed8e1c7d44e, type: 3}
+  EvidenceName: Note of Condolence
+  Description: A condolences card that is crumpled up quite aggresivly.
+  EvidenceImage: {fileID: -1055680156, guid: 2cab6edcf4ca7564e8c1641d65c96712, type: 3}

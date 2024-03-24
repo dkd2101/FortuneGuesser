@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8bb86f6f6c77c4a069d82a2bd9f1d1e0, type: 3}
-  m_Name: Notebook
+  m_Name: Glasses
   m_EditorClassIdentifier: 
-  EvidenceName: Neat Spiral Notebook
-  Description: A new notebook from his father with a note stating "your sister used
-    something similar when she aced her exams"
-  EvidenceImage: {fileID: -1370461653, guid: e4d53843ebd328846b3deed8e1c7d44e, type: 3}
+  EvidenceName: A Pair of Glasses
+  Description: "A pair of glasses with a hummingbird engraved into it. She shouldn\u2019t
+    need glasses considering vampires have super vision"
+  EvidenceImage: {fileID: -181993349, guid: 2cab6edcf4ca7564e8c1641d65c96712, type: 3}
