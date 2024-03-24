@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ebeb6b9f32147f08b4ca056ca06b5d, type: 3}
   m_Name: H2 - PressureFromHerSuccess
   m_EditorClassIdentifier: 
-  name: Seven
+  name: Lou Seven
   sentences:
   - 'Thats a good way to put it. '
   - 'It''s just I care for my sister, but being around her can be difficult for me. '

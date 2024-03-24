@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ebeb6b9f32147f08b4ca056ca06b5d, type: 3}
   m_Name: C5 - StrainedRelationship
   m_EditorClassIdentifier: 
-  name: Seven
+  name: Lou Seven
   sentences:
   - 'I don''t get what you mean. '
   - I think you might be misunderstanding something.

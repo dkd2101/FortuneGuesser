@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ebeb6b9f32147f08b4ca056ca06b5d, type: 3}
   m_Name: J2 - Necklace
   m_EditorClassIdentifier: 
-  name: Seven
+  name: Lou Seven
   sentences:
   - 'Necklace? You mean this one I''m currently wearing? '
   - What does this have to do with my sister at all?

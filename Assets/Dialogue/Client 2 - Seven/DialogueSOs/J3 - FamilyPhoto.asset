@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ebeb6b9f32147f08b4ca056ca06b5d, type: 3}
   m_Name: J3 - FamilyPhoto
   m_EditorClassIdentifier: 
-  name: Seven
+  name: Lou Seven
   sentences:
   - 'Wait, how''d you know about that? '
   - 'Well I guess that''s just how fortune telling works, actually. '

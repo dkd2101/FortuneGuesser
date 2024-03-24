@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Wallet
   m_EditorClassIdentifier: 
   EvidenceName: Wallet
-  Description: "There is a note, \u201CIf found, return to Pastor John\u2019s Family
+  Description: "There is a note, \u201CIf found, return to Pastor David\u2019s Family
     at Linton Church.\" There\u2019s also a photo of a small Zom boy praying next
     to a priest. They're both smiling."
   EvidenceImage: {fileID: 0}
