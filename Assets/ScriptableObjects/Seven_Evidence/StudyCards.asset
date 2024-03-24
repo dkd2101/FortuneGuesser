@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: StudyCards
   m_EditorClassIdentifier: 
   EvidenceName: Study Cards
-  Description: 120 flash cards with a bunch of complex words I'm not familiar. It's
-    definitely English, just too advanced for me.
+  Description: 120 flash cards with a bunch of complex words I'm not familiar with.
+    It's definitely English, just too advanced for me.
   EvidenceImage: {fileID: 0}

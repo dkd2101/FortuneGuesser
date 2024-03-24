@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bb86f6f6c77c4a069d82a2bd9f1d1e0, type: 3}
+  m_Name: HusbandPhoto2
+  m_EditorClassIdentifier: 
+  EvidenceName: An Old Photo
+  Description: A old black and white photo of Mika with a young man in traditional
+    clothing from history. She seems stoic but something about her face hints at
+    a smile
+  EvidenceImage: {fileID: 805316063, guid: 2cab6edcf4ca7564e8c1641d65c96712, type: 3}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ebeb6b9f32147f08b4ca056ca06b5d, type: 3}
   m_Name: K4-L1-L2 - SheCaresAboutYou
   m_EditorClassIdentifier: 
-  name: Seven
+  name: Lou Seven
   sentences:
   - 'Yeah, maybe you''re right. We probably have a lot to discuss. '
   - 'Maybe its time for me to start becoming a lawyer. '

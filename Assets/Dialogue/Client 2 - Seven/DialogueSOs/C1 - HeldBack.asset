@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ebeb6b9f32147f08b4ca056ca06b5d, type: 3}
   m_Name: C1 - HeldBack
   m_EditorClassIdentifier: 
-  name: Seven
+  name: Lou Seven
   sentences:
   - This is stupid. I shouldn't have come here and listen to this nonsense.
   - I'm heading out, thanks anyway.
