@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8ebeb6b9f32147f08b4ca056ca06b5d, type: 3}
+  m_Name: END-Betrayal
+  m_EditorClassIdentifier: 
+  name: Miko
+  sentences:
+  - ....how....did you know?
+  - No it was... it was for the best for us to be apart.
+  - It was a time in history where we couldn't be together.....
+  - '. . . '
+  - 'And scene.
+
+'
+  - How was my acting?
+  - You see child THAT is how you tell a convincing lie.
+  - I do hope I'll be getiting my refund in the mail by next week right?
+  - I'll be going now. I hope you're acting improves for the sake of your customers
+  voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
+  objFocus: {fileID: 0}
+  eraseAfterDialogue: 0

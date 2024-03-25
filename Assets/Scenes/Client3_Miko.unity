@@ -2387,7 +2387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7048f0394c9a9e1449664070ec7a985e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _currentDialoguePiece: {fileID: 11400000, guid: 9738814a827604c48ab4e8411f258464, type: 2}
+  _currentDialoguePiece: {fileID: 11400000, guid: 1e302e0e67d9c4b66b69673caea8ecb9, type: 2}
   _choiceButtonParent: {fileID: 232942858}
   _choiceButtonPrefab: {fileID: 7188098408679815387, guid: 5ab32baa94ecb3145a5fc66782c5fc88, type: 3}
   _dialogueManager: {fileID: 1503654401}

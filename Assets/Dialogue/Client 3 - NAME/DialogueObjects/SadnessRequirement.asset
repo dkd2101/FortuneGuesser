@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
-  m_Name: B3-LifeDirection
+  m_Name: SadnessRequirement
   m_EditorClassIdentifier: 
-  clientDialogue: {fileID: 11400000, guid: 1726972f351614156a52a526ca50aeef, type: 2}
+  clientDialogue: {fileID: 11400000, guid: 9512e458f9dc24d4e9f70167bbf4fe3f, type: 2}
   choiceNames:
-  - Something is haunting you at night
-  - You're running away from the past
+  - Refusing to be vulnerable isn't healthy
+  - You still care deeply for your past loves
   choiceOutcomes: []
   endPiece: 0
   finalReview: {fileID: 0}

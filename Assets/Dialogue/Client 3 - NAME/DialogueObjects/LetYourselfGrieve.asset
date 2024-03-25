@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
-  m_Name: B1-MinorDisbelief
+  m_Name: LetYourselfGrieve
   m_EditorClassIdentifier: 
-  clientDialogue: {fileID: 11400000, guid: 31c38342b1baf45c5bead452d1158348, type: 2}
+  clientDialogue: {fileID: 11400000, guid: 7579913862e1c4d5181ef5690990b0d2, type: 2}
   choiceNames:
-  - Your past was full of love
-  - Your past is tinted with regret
+  - The dove
+  - You're sleeping pills
+  - Your photos
   choiceOutcomes: []
   endPiece: 0
   finalReview: {fileID: 0}

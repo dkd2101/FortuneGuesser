@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
+  m_Name: C2-LoveMeanMore
+  m_EditorClassIdentifier: 
+  clientDialogue: {fileID: 11400000, guid: b9a2e77f6b922458283fcffb7f85a4ff, type: 2}
+  choiceNames:
+  - Sadness is a requirement of love
+  - You should fine new love to find company
+  - You're afraid to aknowledge your emotions
+  choiceOutcomes:
+  - {fileID: 11400000, guid: dbea327984671492dadde70bd42c8f53, type: 2}
+  - {fileID: 11400000, guid: 020ff5d69c29749cebb3dbb825e233f4, type: 2}
+  - {fileID: 11400000, guid: 020ff5d69c29749cebb3dbb825e233f4, type: 2}
+  endPiece: 0
+  finalReview: {fileID: 0}
