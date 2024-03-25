@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Me
   sentences:
-  - Hello yes of course Lou Seven.... welcome to the shop!
-  - I've...been expecting you
-  - (Alright you did it before you can do it again lets learn more about him)
+  - Hello! yes, of course, Lou Seven... Welcome to the shop!
+  - I've been expecting you.
+  - (Alright. You did it before, you can do it again.  Let's learn more about him.)
   - I'm just gonna need to you to fill out a few forms for me in the front.
-  - Feel free to leave your bag right on this chair
+  - Feel free to leave your bag right on this chair.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

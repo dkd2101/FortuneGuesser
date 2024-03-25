@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: You
   sentences:
-  - '(Alright new day new me) '
-  - (I wonder what every ended up happening with Jon)
-  - (I feel kinda bad that I made assumptions about him being scary just cause he
-    was a Zom)
+  - '(Alright. New day, new me.) '
+  - (I wonder what every ended up happening with Jon.)
+  - (Let me check my Uelp page.)
   voice: {fileID: 8300000, guid: 6b17f6bc64e863c4aa82ed1262bce719, type: 3}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

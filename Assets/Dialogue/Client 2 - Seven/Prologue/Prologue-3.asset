@@ -15,8 +15,8 @@ MonoBehaviour:
   name: ???
   sentences:
   - Hi...
-  - I'm here to see if I could get some advice on my future
-  - My name is Lou Seven and ... well you pobably already knew that
+  - I'm here to see if I could get some advice on my future.
+  - My name is Lou Seven and... Oh, well you pobably already knew that.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 4933474543557848716, guid: 13dc19a1e82794045b1300f210556f31, type: 3}
   eraseAfterDialogue: 0
