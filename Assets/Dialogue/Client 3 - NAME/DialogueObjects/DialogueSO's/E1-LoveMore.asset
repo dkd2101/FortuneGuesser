@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Miko
   sentences:
-  - 'I''ve never been in love actually, it''s always been a way to pass time.
+  - 'I''ve never been in love, actually. It''s always just been a way to pass time.
 
 
 '
-  - 'I''ve had relationships but until the very end I never felt an attachment to
-    them.
+  - 'I''ve had relationships, but until the very end, I never felt an attachment
+    to them.
 
 '
-  - .... ever.
+  - ...ever.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

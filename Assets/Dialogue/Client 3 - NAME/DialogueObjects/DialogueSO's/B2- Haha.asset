@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Miko
   sentences:
-  - Ha....
-  - HAHA oh yes.
-  - I a vampire who's lived centuries need the advice of you
-  - A child
+  - Ha...
+  - HAHAHA. Oh, yes.
+  - I, a vampire who's lived centuries, need the advice of you,
+  - A child.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

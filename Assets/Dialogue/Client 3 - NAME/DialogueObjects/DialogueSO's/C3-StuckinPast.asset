@@ -15,7 +15,7 @@ MonoBehaviour:
   name: 
   sentences:
   - 'Stuck in the past? '
-  - I believe that I'm moving forward with my life quite well
+  - I believe that I'm moving forward with my life quite well, thank you very much.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

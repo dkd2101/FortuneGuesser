@@ -15,10 +15,10 @@ MonoBehaviour:
   name: Mika
   sentences:
   - Confused?
-  - I hate to break it to you but if you've lived as long as I have you figure out
-    life one way or another
+  - I hate to break it to you, but if you've lived as long as I have, you figure
+    out life one way or another.
   - You can't teach an old wolf new tricks, especially when they already know all
-    of them
+    of them.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

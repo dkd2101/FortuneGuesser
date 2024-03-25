@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Miko
   sentences:
-  - Sheila is a good friend of mine
+  - Sheila is a good friend of mine.
   - I may be hesitant right now, but I would never be irritated by her.
-  - I think our conversation has reached its end "fortune teller"
+  - I think our conversation has reached its end, "fortune teller."
   - Thank you...
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 0}

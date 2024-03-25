@@ -17,7 +17,7 @@ MonoBehaviour:
   - 'Pft!
 
 '
-  - Child do you even know how many times I've loved in my lifetime?
+  - Child, do you even know how many times I've loved in my lifetime?
   voice: {fileID: 0}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

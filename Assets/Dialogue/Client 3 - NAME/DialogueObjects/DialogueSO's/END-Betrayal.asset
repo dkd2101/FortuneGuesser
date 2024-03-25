@@ -14,17 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Miko
   sentences:
-  - ....how....did you know?
+  - ...How...did you know?
   - No it was... it was for the best for us to be apart.
   - It was a time in history where we couldn't be together.....
-  - '. . . '
-  - 'And scene.
+  - ...
+  - 'And, scene.
 
 '
   - How was my acting?
-  - You see child THAT is how you tell a convincing lie.
-  - I do hope I'll be getiting my refund in the mail by next week right?
-  - I'll be going now. I hope you're acting improves for the sake of your customers
+  - You see, child, THAT is how you tell a convincing lie.
+  - I do hope I'll be getting my refund in the mail by, say, next week?
+  - I'll be going now. I hope you're acting improves for the sake of your customers.
+  - Good luck, darling.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

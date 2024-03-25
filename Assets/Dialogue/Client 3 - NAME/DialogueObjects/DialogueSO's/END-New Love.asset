@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Miko
   sentences:
-  - Hmm....
-  - Maybe you're right
-  - I can continue to love but at a arms distance
-  - I think I've had enough of our conversation
-  - Thank you "fortune teller"
+  - Hmm...
+  - Maybe you're right.
+  - I can continue to love but at an arm's distance.
+  - I think I've had enough of our conversation.
+  - Thank you, "fortune teller."
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

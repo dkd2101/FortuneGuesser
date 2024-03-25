@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Miko
   sentences:
-  - Well well well . . . to think this place would become a fortune telling store
-  - You know this has been home to a variety of places through my life
+  - Well well well... To think this place would become a fortune telling store.
+  - You know, this has been home to a variety of places throughout my life.
   - Restaurants, electronics stores, bakeries
-  - '. . . '
-  - They all went out of business really fast tho
+  - ...
+  - They all went out of business really fast, though.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

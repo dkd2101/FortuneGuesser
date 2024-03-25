@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Miko
   sentences:
-  - Ha... my husband I have no clue what that could mean....
-  - Well my husband can no longer burden me regardless
-  - He's dead
+  - Ha... My husband I have no clue what that could mean...
+  - Well, my husband can no longer burden me regardless.
+  - He's dead.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Miko
   sentences:
-  - Hm I'm surprised.
+  - Hmm, I'm surprised.
   - In a sense you're right, but in another you're wrong.
   - What do you happen to mean?
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}

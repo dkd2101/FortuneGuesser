@@ -14,24 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Miko
   sentences:
-  - I-.....
+  - I-...
   - 'That dove... how did you....
 
 '
   - I'm shocked you noticed it.
   - That dove meant everything to me.
-  - With my first husband i thought I would never love anyone after
-  - But soon after I met another and the time we spent together felt like it'd last
-    forever.
-  - ....
+  - After my first husband, I thought I would never love anyone again.
+  - But soon after, I met another, and the time we spent together felt like it'd
+    last forever.
+  - ...
   - Then it didn't.
-  - Per chance your right.
-  - 'I should grieve them.. I loved both of them very much
+  - Perchance you're right.
+  - 'I should grieve them... I loved both of them very much.
 
 '
-  - And thats why it hurts.
-  - Thank you for telling my fortune...well...you're not a fortune teller...but thats
-    not what people come here for I believe
+  - And that's why it hurts so much.
+  - Thank you for telling my fortune... Well... You're not a fortune teller, are
+    you?
+  - But that's not what people come here for, I believe.
+  - Good luck out there.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

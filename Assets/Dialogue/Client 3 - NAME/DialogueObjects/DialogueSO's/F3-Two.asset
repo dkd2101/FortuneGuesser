@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Miko
   sentences:
-  - Mmm yes correct actually.
-  - 'And do you know what I''ve learned from that. '
-  - Love is just as fleeting as life child
+  - Mmm, yes. Correct, actually.
+  - And do you know what I've learned from that?
+  - Love is just as fleeting as life, child.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

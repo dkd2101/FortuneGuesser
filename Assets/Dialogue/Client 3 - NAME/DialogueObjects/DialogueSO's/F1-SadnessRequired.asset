@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Miko
   sentences:
-  - When you go through as many years as I've lived child
-  - You learn that you can't afford to have sadness
+  - When you go through as many years as I've lived, child,
+  - You learn that you can't afford to have sadness.
   - Sadness doesn't GIVE you anything but sadness.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 0}

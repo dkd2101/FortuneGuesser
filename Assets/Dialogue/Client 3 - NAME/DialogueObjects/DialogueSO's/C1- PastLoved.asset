@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Miko
   sentences:
-  - Love...  whatsoever could you mean?
-  - I think I'm much too old for love, I have no need for it
+  - Love... Whatsoever could you mean?
+  - I think I'm much too old for love. I have no need for it.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

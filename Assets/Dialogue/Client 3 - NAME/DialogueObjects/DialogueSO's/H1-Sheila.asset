@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Miko
   sentences:
-  - 'Ah how did you know!
+  - 'Ah, how did you know?
 
 '
   - Is it per chance...my phone on the table?
-  - But I'm curious what problem is there with her?
+  - But I'm curious. What problem is there with her?
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

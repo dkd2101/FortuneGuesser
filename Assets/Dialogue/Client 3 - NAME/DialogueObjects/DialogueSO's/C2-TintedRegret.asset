@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Miko
   sentences:
   - I make it a goal of mine to not make regrets.
-  - So I'm not sure what you may mean
+  - So I'm not sure what you may mean.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Miko
   sentences:
-  - AHAHAHA
-  - Ah yes....you're wrong
-  - Maybe next time you can analyze the contents of my bag more closely
+  - AHAHAHA!
+  - Ah, yes... you're wrong.
+  - Maybe next time, you can analyze the contents of my bag more closely.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

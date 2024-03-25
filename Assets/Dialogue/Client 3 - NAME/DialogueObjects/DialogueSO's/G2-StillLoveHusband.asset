@@ -15,9 +15,9 @@ MonoBehaviour:
   name: Miko
   sentences:
   - I'm not sure what would make you believe that.
-  - 'I did love them but there''s nothing lingering. '
-  - I've moved on it was temporary and nothing more.
-  - Thats how people like me have to live
+  - 'I did love them, but there''s nothing lingering. '
+  - I've moved on. It was temporary and nothing more.
+  - Thats how people like me have to live.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

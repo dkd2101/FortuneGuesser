@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Miko
   sentences:
-  - I'm not reluctant I simply can't be bothered.
+  - I'm not reluctant. I simply can't be bothered.
   - For someone who lives as long as I do, connections get lost so quickly.
   - It's just something I no longer need.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}

@@ -15,8 +15,8 @@ MonoBehaviour:
   name: Miko
   sentences:
   - What happened in the past is the past.
-  - If I remain stuck on every little thing in my lifespan I'd go insane
-  - People come and they .... go
+  - If I remained stuck on every little thing in my lifespan, I'd go insane.
+  - People come and then they... go.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

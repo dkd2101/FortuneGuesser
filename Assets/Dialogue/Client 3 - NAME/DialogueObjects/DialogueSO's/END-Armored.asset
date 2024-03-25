@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Miko
   sentences:
-  - Yes I know it will
-  - I've done it for years and it's always worked
-  - Thank you for your advice child that will be all for this conversation.
+  - Yes, I know it will.
+  - I've done it for years, and it's always worked.
+  - Thank you for your advice, child. That will be all for this conversation.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0
