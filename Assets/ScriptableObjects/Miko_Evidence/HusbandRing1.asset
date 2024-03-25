@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: HusbandRing1
   m_EditorClassIdentifier: 
   EvidenceName: Jade Ring
-  Description: A jade ring seemingly an engagement ring
+  Description: A jade ring, seemingly an engagement ring
   EvidenceImage: {fileID: 0}
