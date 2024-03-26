@@ -1011,12 +1011,13 @@ MonoBehaviour:
   levelPassedSFX: {fileID: 0}
   hasPrologue: 1
   _prologueDialogue:
-  - {fileID: 11400000, guid: 7890f0f853134469588608d0e3f8908f, type: 2}
-  - {fileID: 11400000, guid: 31669103253b44c309cc49ad179006dc, type: 2}
-  - {fileID: 11400000, guid: c4c150046847740e7b613ab5233977a5, type: 2}
-  - {fileID: 11400000, guid: 4b9cbe71352ca493590dbb917568df5a, type: 2}
-  - {fileID: 11400000, guid: 39151b37f19de4385b9b828f06ab9d76, type: 2}
-  - {fileID: 11400000, guid: fbdf07c614b3340669c2401220bc6708, type: 2}
+  - {fileID: 11400000, guid: 1cb19fca124dd493ebf17179da21970f, type: 2}
+  - {fileID: 11400000, guid: a5bc02a12dc344ad78f6d12e3da72ba3, type: 2}
+  - {fileID: 11400000, guid: 9b987e7341e9b44e4b04cb14a207aa76, type: 2}
+  - {fileID: 11400000, guid: 8e1f8efa340af4e47938be31cf4a6be0, type: 2}
+  - {fileID: 11400000, guid: cd1e4065d63874df1844b9e2d9a458b4, type: 2}
+  - {fileID: 11400000, guid: 0a346f63b537149e18aca51ce3203ca4, type: 2}
+  fadeToBlack: {fileID: 0}
 --- !u!114 &933863402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2143,6 +2144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _toSceneName: MainMenu
+  _toSceneNumber: 0
 --- !u!114 &2131535030
 MonoBehaviour:
   m_ObjectHideFlags: 0
