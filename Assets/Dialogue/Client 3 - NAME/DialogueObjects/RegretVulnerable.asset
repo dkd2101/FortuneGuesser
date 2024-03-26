@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
-  m_Name: B2-Advice
+  m_Name: RegretVulnerable
   m_EditorClassIdentifier: 
-  clientDialogue: {fileID: 11400000, guid: 2ca5ec8066b51472d919c5fae35d392f, type: 2}
+  clientDialogue: {fileID: 11400000, guid: afa7ba7e770b04ca6a5d6a9647dc4ff0, type: 2}
   choiceNames:
-  - You're stuck holding onto a past that doesn't exist
-  - Something is haunting you at night
+  - Refusing to be vulnerable isn't healthy
+  - That armor will guide you safely
   choiceOutcomes:
-  - {fileID: 11400000, guid: 5ff96f26708cd4e1ca6d92c53ee83501, type: 2}
-  - {fileID: 11400000, guid: d34c8145750c3441c9aa07bacfa69c10, type: 2}
+  - {fileID: 11400000, guid: 5357b393fdebf41b985a8aa5d0307e59, type: 2}
+  - {fileID: 11400000, guid: d00802853eb9141d4b714637ef0e412d, type: 2}
   endPiece: 0
   finalReview: {fileID: 0}

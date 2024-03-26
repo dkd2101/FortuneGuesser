@@ -18,6 +18,6 @@ MonoBehaviour:
   - You still care deeply for your past loves
   choiceOutcomes:
   - {fileID: 11400000, guid: 189619813fda44ffd9889d3cc7f2011c, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: e512d27ffa46f4db0a95bab1f5121f06, type: 2}
   endPiece: 0
   finalReview: {fileID: 0}

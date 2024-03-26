@@ -17,7 +17,7 @@ MonoBehaviour:
   - Refusing to be vulnerable isn't healthy
   - That armor will guide you safely
   choiceOutcomes:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 5357b393fdebf41b985a8aa5d0307e59, type: 2}
+  - {fileID: 11400000, guid: d00802853eb9141d4b714637ef0e412d, type: 2}
   endPiece: 0
   finalReview: {fileID: 0}

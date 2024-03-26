@@ -17,6 +17,9 @@ MonoBehaviour:
   - The dove
   - You're sleeping pills
   - Your photos
-  choiceOutcomes: []
+  choiceOutcomes:
+  - {fileID: 11400000, guid: 41fcc6b2fc5d74956bf537a59bac7129, type: 2}
+  - {fileID: 11400000, guid: 5df47dbf4ad354b39b3a02fe809b64ab, type: 2}
+  - {fileID: 11400000, guid: 4336e0e623f094c6c88b617363d6c8ff, type: 2}
   endPiece: 0
   finalReview: {fileID: 0}

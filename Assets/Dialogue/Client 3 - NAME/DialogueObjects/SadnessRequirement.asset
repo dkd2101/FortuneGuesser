@@ -16,6 +16,8 @@ MonoBehaviour:
   choiceNames:
   - Refusing to be vulnerable isn't healthy
   - You still care deeply for your past loves
-  choiceOutcomes: []
+  choiceOutcomes:
+  - {fileID: 11400000, guid: 5357b393fdebf41b985a8aa5d0307e59, type: 2}
+  - {fileID: 11400000, guid: e512d27ffa46f4db0a95bab1f5121f06, type: 2}
   endPiece: 0
   finalReview: {fileID: 0}

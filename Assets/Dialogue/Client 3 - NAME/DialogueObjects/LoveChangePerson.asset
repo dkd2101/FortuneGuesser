@@ -19,7 +19,7 @@ MonoBehaviour:
   - three
   choiceOutcomes:
   - {fileID: 11400000, guid: ac13b3faca97a4b11a88023aa2b4c475, type: 2}
+  - {fileID: 11400000, guid: af4d60ad5a95b4e6497468ccc97cc95e, type: 2}
   - {fileID: 11400000, guid: 92dc6e5fbb2ef46f697b775638fd1dcd, type: 2}
-  - {fileID: 0}
   endPiece: 0
   finalReview: {fileID: 0}

@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
-  m_Name: B2-Advice
+  m_Name: UnhealthyVulnerable
   m_EditorClassIdentifier: 
-  clientDialogue: {fileID: 11400000, guid: 2ca5ec8066b51472d919c5fae35d392f, type: 2}
+  clientDialogue: {fileID: 11400000, guid: 167f242a453434d88980775a8637e242, type: 2}
   choiceNames:
-  - You're stuck holding onto a past that doesn't exist
-  - Something is haunting you at night
+  - Sheila
+  - Emily
+  - your sister
   choiceOutcomes:
-  - {fileID: 11400000, guid: 5ff96f26708cd4e1ca6d92c53ee83501, type: 2}
-  - {fileID: 11400000, guid: d34c8145750c3441c9aa07bacfa69c10, type: 2}
+  - {fileID: 11400000, guid: c47816246caf746988f1ae3830fc5902, type: 2}
+  - {fileID: 11400000, guid: 29791b5ff21064032a53e7a623254371, type: 2}
+  - {fileID: 11400000, guid: 29791b5ff21064032a53e7a623254371, type: 2}
   endPiece: 0
   finalReview: {fileID: 0}

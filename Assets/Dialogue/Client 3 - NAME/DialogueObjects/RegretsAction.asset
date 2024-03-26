@@ -18,6 +18,6 @@ MonoBehaviour:
   - You regret leaving your heart vulnerable
   choiceOutcomes:
   - {fileID: 11400000, guid: 6916987c87d8646c7accdb2e4b8a80e1, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: feb4993c508064a1095d12350b149e0e, type: 2}
   endPiece: 0
   finalReview: {fileID: 0}
