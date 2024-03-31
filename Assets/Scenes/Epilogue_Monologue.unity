@@ -1012,13 +1012,8 @@ MonoBehaviour:
   levelPassedSFX: {fileID: 0}
   hasPrologue: 1
   _prologueDialogue:
-  - {fileID: 11400000, guid: 1cb19fca124dd493ebf17179da21970f, type: 2}
-  - {fileID: 11400000, guid: a5bc02a12dc344ad78f6d12e3da72ba3, type: 2}
-  - {fileID: 11400000, guid: 41ababbc66ada8040a931b961a76a410, type: 2}
-  - {fileID: 11400000, guid: 9b987e7341e9b44e4b04cb14a207aa76, type: 2}
-  - {fileID: 11400000, guid: 8e1f8efa340af4e47938be31cf4a6be0, type: 2}
-  - {fileID: 11400000, guid: cd1e4065d63874df1844b9e2d9a458b4, type: 2}
-  - {fileID: 11400000, guid: 0a346f63b537149e18aca51ce3203ca4, type: 2}
+  - {fileID: 11400000, guid: 509d92ccc645360448e146b11320dc73, type: 2}
+  - {fileID: 11400000, guid: 027860fbe5b37ee49a846229e65e41d5, type: 2}
   fadeToBlack: {fileID: 0}
 --- !u!114 &933863402
 MonoBehaviour:
