@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
+  m_Name: LoveChangePerson
+  m_EditorClassIdentifier: 
+  clientDialogue: {fileID: 11400000, guid: 894b9f3686e664ff79b8a84f8413bee7, type: 2}
+  choiceNames:
+  - one
+  - twice
+  - three
+  choiceOutcomes:
+  - {fileID: 11400000, guid: ac13b3faca97a4b11a88023aa2b4c475, type: 2}
+  - {fileID: 11400000, guid: af4d60ad5a95b4e6497468ccc97cc95e, type: 2}
+  - {fileID: 11400000, guid: 92dc6e5fbb2ef46f697b775638fd1dcd, type: 2}
+  endPiece: 0
+  finalReview: {fileID: 0}

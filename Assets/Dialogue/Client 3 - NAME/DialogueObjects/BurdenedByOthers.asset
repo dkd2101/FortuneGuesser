@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
+  m_Name: BurdenedByOthers
+  m_EditorClassIdentifier: 
+  clientDialogue: {fileID: 11400000, guid: be64e336028c7451c8dbc7e521aed13a, type: 2}
+  choiceNames:
+  - Yourself
+  - Sheila
+  - Your husband
+  choiceOutcomes:
+  - {fileID: 11400000, guid: e7d3354dd88ff4226a486331fe1fc2b7, type: 2}
+  - {fileID: 11400000, guid: c47816246caf746988f1ae3830fc5902, type: 2}
+  - {fileID: 11400000, guid: 89c41d5cbc07944daaedab2ab81523ee, type: 2}
+  endPiece: 0
+  finalReview: {fileID: 0}

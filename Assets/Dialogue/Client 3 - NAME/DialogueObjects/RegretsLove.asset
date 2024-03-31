@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
+  m_Name: RegretsLove
+  m_EditorClassIdentifier: 
+  clientDialogue: {fileID: 11400000, guid: 8e811430c7bf945c4b0aa0d5b0ceba00, type: 2}
+  choiceNames:
+  - Loving meant more than you originally expected
+  - You're afraid to aknowledge your emotions
+  choiceOutcomes:
+  - {fileID: 11400000, guid: eabfc419552a44c6c8e5db992c9ecdc3, type: 2}
+  - {fileID: 11400000, guid: ef1d14ac74df84a90bfaed81baa323a9, type: 2}
+  endPiece: 0
+  finalReview: {fileID: 0}
