@@ -12,11 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ebeb6b9f32147f08b4ca056ca06b5d, type: 3}
   m_Name: Client3-Prologue-2
   m_EditorClassIdentifier: 
-  name: Miko
-  sentences:
-  - Hello there.
-  - I saw there was a new shop in town that tells fortune and I wanted to confirm
-    it for myself
+  name: You
+  sentences: []
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
-  objFocus: {fileID: 9006519633146832044, guid: cb639791f34e3480f886b15fd8b2e7ac, type: 3}
-  eraseAfterDialogue: 0
+  objFocus: {fileID: 2888537492490564462, guid: 5c0f15b711ea2f046bfe680f6223c050, type: 3}
+  eraseAfterDialogue: 1

@@ -17,3 +17,8 @@ MonoBehaviour:
     about. I'm going to take some time for myself and reconsider my future relationships.
     Thanks.
   starCount: 4
+  monologueReaction:
+  - (Looks like I was able to reach his heart, even if he needs to do the last bit
+    of work on his own.)
+  - (I'm glad I was able to teach him something, and I hope that he can continue
+    to heal from here on out.)

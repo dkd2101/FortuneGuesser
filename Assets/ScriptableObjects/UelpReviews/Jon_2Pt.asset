@@ -17,3 +17,8 @@ MonoBehaviour:
     got me talking to my dad and stuff. I'm going to keep it in mind and work on
     my future while focusing on whats expected of me. Zom on.
   starCount: 4
+  monologueReaction:
+  - (Ah, he left me a review!)
+  - (Hmm, it looks like my advice worked out somewhat well for him. I'm glad he talked
+    to his father.)
+  - (I hope that he can find what he's looking for out there in life.)

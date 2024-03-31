@@ -17,3 +17,11 @@ MonoBehaviour:
     with my family. I didn't know what I was missing until now. But my future seems
     brighter than ever. Thank you!
   starCount: 5
+  monologueReaction:
+  - (...This is great! It looks like I really was able to change that guy's outlook
+    on things.)
+  - (I'm so happy to see him like this. I hope he can learn to reconnect and thrive
+    with his family now.)
+  - (I think the hard part was telling him what he needed to hear without scaring
+    him off.)
+  - (But I guess I did a really good job, didn't I?)

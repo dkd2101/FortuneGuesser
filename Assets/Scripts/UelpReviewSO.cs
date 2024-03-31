@@ -12,4 +12,7 @@ public class UelpReviewSO : ScriptableObject
 
     public int starCount;
 
+    [TextArea(1, 10)]
+    public string[] monologueReaction;
+
 }

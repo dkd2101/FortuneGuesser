@@ -17,3 +17,8 @@ MonoBehaviour:
     the slightest. Do yourself a favor and don't waste your time. I got nothing out
     of this place.
   starCount: 1
+  monologueReaction:
+  - (Oh man, looks like I might have messed up with that last guy.)
+  - (I tried to understand what was going on with him, but it was all a bit confusing,
+    really.)
+  - (He didn't need to be so rude about it though.)

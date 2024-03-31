@@ -10,13 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b8ebeb6b9f32147f08b4ca056ca06b5d, type: 3}
-  m_Name: Client3-Prologue-3 2
+  m_Name: Prologue-2Half
   m_EditorClassIdentifier: 
-  name: You
+  name: Me
   sentences:
-  - (I feel like shes out to expose me for sure)
-  - (I better see what shes up to and get any clues I can. I better watch what I
-    say too)
-  voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
-  objFocus: {fileID: 0}
+  - Oh, a customer...!
+  voice: {fileID: 8300000, guid: 6b17f6bc64e863c4aa82ed1262bce719, type: 3}
+  objFocus: {fileID: 5097757519008297900, guid: 3b9a231d03af22f409e542c3540d1529, type: 3}
   eraseAfterDialogue: 1

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb3a84b4cbea6e45979c4c770f4ecd0, type: 3}
+  m_Name: Miko_0Pt
+  m_EditorClassIdentifier: 
+  OPName: MikoDarely
+  review: HAHAHAHAHA. What a joke. Never rely on others to fix your problems. But
+    then again, who am I to tell you what to do? The time will pass anyway.
+  starCount: 1
+  monologueReaction:
+  - (Aw man. What a tough customer.)
+  - (BUT WHAT WAS I SUPPOSED TO DO?)
+  - (I told her what I thought she needed to hear. Was that not enough?)
+  - (She was just so quick-tempered. I guess I went too fast.)
+  - (Well, I tried my best.)

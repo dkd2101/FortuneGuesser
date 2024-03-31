@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb3a84b4cbea6e45979c4c770f4ecd0, type: 3}
+  m_Name: Miko_3Pt
+  m_EditorClassIdentifier: 
+  OPName: MikoDarely
+  review: In all my countless years, I've never seen someone this in tune with empathy,
+    compassion, and the divine spirit of the future. If you are trouble, or if you
+    are not, you will leave this place better than when you entered.
+  starCount: 5
+  monologueReaction:
+  - (...Wow, I really helped someone like that so much. I can't believe it!)
+  - (I thought for sure it was over for me when I first met her. But I really pulled
+    through, I guess!)
+  - (I'm glad I was able to help her. I think she was struggling for a long, long
+    time until now.)
+  - (Sometimes talking to even one other person who knows your struggles is enough.
+    I'm glad I could be that for her.)

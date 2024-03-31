@@ -972,6 +972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000c2c651927748d69740dedeb776de4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sentences: []
   _dialogue_text: {fileID: 1995205578}
   _name_text: {fileID: 487759350}
   _textBox: {fileID: 2068967628}
@@ -1012,11 +1013,13 @@ MonoBehaviour:
   hasPrologue: 1
   _prologueDialogue:
   - {fileID: 11400000, guid: 7890f0f853134469588608d0e3f8908f, type: 2}
-  - {fileID: 11400000, guid: 31669103253b44c309cc49ad179006dc, type: 2}
+  - {fileID: 11400000, guid: 6918c9eb9574c0541b517d82ac2a0cb2, type: 2}
+  - {fileID: 11400000, guid: b836b506eab9b5247a95817704d1beca, type: 2}
   - {fileID: 11400000, guid: c4c150046847740e7b613ab5233977a5, type: 2}
   - {fileID: 11400000, guid: 4b9cbe71352ca493590dbb917568df5a, type: 2}
   - {fileID: 11400000, guid: 39151b37f19de4385b9b828f06ab9d76, type: 2}
   - {fileID: 11400000, guid: fbdf07c614b3340669c2401220bc6708, type: 2}
+  fadeToBlack: {fileID: 0}
 --- !u!114 &933863402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2143,6 +2146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _toSceneName: MainMenu
+  _toSceneNumber: 0
 --- !u!114 &2131535030
 MonoBehaviour:
   m_ObjectHideFlags: 0

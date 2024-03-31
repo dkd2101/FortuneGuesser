@@ -10,11 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b8ebeb6b9f32147f08b4ca056ca06b5d, type: 3}
-  m_Name: Client3-Prologue-3 1
+  m_Name: Client3-Prologue-7
   m_EditorClassIdentifier: 
-  name: Miko
+  name: You
   sentences:
-  - Hmmmm....ok I'll be back
+  - (I feel like she's out to expose me for sure.)
+  - (I better see what she's up to and get any clues I can. I better watch what I
+    say, too.)
+  - (If I'm too harsh too fast, it might be over for me.)
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 0}
-  eraseAfterDialogue: 0
+  eraseAfterDialogue: 1

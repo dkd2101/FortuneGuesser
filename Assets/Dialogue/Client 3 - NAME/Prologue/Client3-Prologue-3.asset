@@ -14,10 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: You
   sentences:
-  - (She seems...intense)
-  - Hi of course I've.....been expecting you!
-  - If you could leave your stuff right here and sign some papers up front we can
-    get started
+  - Ah, hello there!
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
-  objFocus: {fileID: 0}
-  eraseAfterDialogue: 0
+  objFocus: {fileID: 5097757519008297900, guid: 3b9a231d03af22f409e542c3540d1529, type: 3}
+  eraseAfterDialogue: 1

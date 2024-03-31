@@ -10,10 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b8ebeb6b9f32147f08b4ca056ca06b5d, type: 3}
-  m_Name: Prologue-2
+  m_Name: Epilogue1
   m_EditorClassIdentifier: 
-  name: Me
-  sentences: []
+  name: You
+  sentences:
+  - (Ok... you can do this.)
+  - (Don't be nervous.)
+  - (So what if you're not a fortune teller.)
+  - (YOU have a Bachelors in Psychology.)
+  - (....well, you would've if Uncle Davidson didn't steal all of the money that
+    dad left for me.)
+  - (Is this wrong... probably... but what are fortunes other than psychiatric advice
+    anyway.)
   voice: {fileID: 8300000, guid: 6b17f6bc64e863c4aa82ed1262bce719, type: 3}
-  objFocus: {fileID: 2888537492490564462, guid: 5c0f15b711ea2f046bfe680f6223c050, type: 3}
-  eraseAfterDialogue: 1
+  objFocus: {fileID: 0}
+  eraseAfterDialogue: 0

@@ -14,13 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: You
   sentences:
-  - Ok I think I'm starting to get the hang of this.
-  - The process is going well...I might have it down to a science
-  - But I never realized that I have a real opportunity to ... help people ...
-  - .....
-  - while scamming them.
-  - I think I just have to figure out how to coerce them into realizing their probleems
-  - Whether they realize it or not
+  - (Ok I think I'm starting to get the hang of this.)
+  - (The process is going well... I might have it down to a science)
+  - (But I never realized that this would be a real opportunity to... help people)
+  - (...)
+  - (while scamming them.)
+  - (I think I just have to figure out how to coerce them into realizing their problems.)
+  - (Without being too bold and harsh about it.)
+  - (Speaking of, I should probably check to see if that Lou guy ever left me a review.)
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

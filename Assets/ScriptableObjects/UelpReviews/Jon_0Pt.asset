@@ -17,3 +17,8 @@ MonoBehaviour:
     I think they're just making things up. Just ask Breaddit or something if you
     need advice.
   starCount: 1
+  monologueReaction:
+  - (Ah, he left me a review!)
+  - (Oh goodness. It doesn't seem like my advice did him much good. What a shame.)
+  - (Nevertheless, I hope I can prove myself and turn things around. There's still
+    time.)

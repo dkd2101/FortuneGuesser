@@ -18,3 +18,12 @@ MonoBehaviour:
     on my own, but I don't like what I learned here. You might be better off not
     knowing your future.
   starCount: 2
+  monologueReaction:
+  - (Hmm, he seems a bit conflicted still. But it seems like I taught him something
+    or other.)
+  - (In any case, I told him what I think he needed to hear. What he does with that
+    information is up to him.)
+  - (Is that fair, though, for his review to be able to affect my career and reputation
+    like this?)
+  - (Should I start telling people what they want to hear? Or what they need to hear?)
+  - (Ugh, this is all so confusing.)

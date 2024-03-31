@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b8ebeb6b9f32147f08b4ca056ca06b5d, type: 3}
-  m_Name: Client3-Prologue-1 1
+  m_Name: Client3-Prologue-4
   m_EditorClassIdentifier: 
-  name: You
+  name: Miko
   sentences:
-  - Most people who're visiting me are trying to seek advice for problems they have
-    anyway
+  - Hello there.
+  - I saw there was a new shop in town that tells fortune and I wanted to confirm
+    it for myself
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
-  objFocus: {fileID: 5097757519008297900, guid: 3b9a231d03af22f409e542c3540d1529, type: 3}
-  eraseAfterDialogue: 1
+  objFocus: {fileID: 9006519633146832044, guid: cb639791f34e3480f886b15fd8b2e7ac, type: 3}
+  eraseAfterDialogue: 0

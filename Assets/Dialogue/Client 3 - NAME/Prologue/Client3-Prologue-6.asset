@@ -9,11 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbb3a84b4cbea6e45979c4c770f4ecd0, type: 3}
-  m_Name: NoReviewsYet
+  m_Script: {fileID: 11500000, guid: b8ebeb6b9f32147f08b4ca056ca06b5d, type: 3}
+  m_Name: Client3-Prologue-6
   m_EditorClassIdentifier: 
-  OPName: 
-  review: No Reviews yet.
-  starCount: 0
-  monologueReaction:
-  - Oh, still no reviews.
+  name: Miko
+  sentences:
+  - Hmmmm... Ok. I'll be back.
+  voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
+  objFocus: {fileID: 0}
+  eraseAfterDialogue: 0

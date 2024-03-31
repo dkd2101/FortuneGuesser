@@ -17,3 +17,8 @@ MonoBehaviour:
     some weird advice. I honestly don't think I'm gonna listen to them. I'll just
     keep on keeping to myself for now. Zom on.
   starCount: 2
+  monologueReaction:
+  - (Ah, he left me a review!)
+  - (I'm not sure if my advice helped him. It seems like he's still conflicted.)
+  - (I hope that he's ok and that he can figure things out on his own. It's hard
+    to give advice to people who you've just met, after all.)

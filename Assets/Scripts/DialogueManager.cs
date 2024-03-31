@@ -12,7 +12,7 @@ public class DialogueManager : MonoBehaviour
 {
     public static bool dialogueOn;
 
-    public Queue<string> sentences;
+    public List<string> sentences;
     private string _name;
 
     private bool isPrologue;
@@ -45,7 +45,7 @@ public class DialogueManager : MonoBehaviour
     void Awake()
     {
         typewriterEffect = GetComponent<TypewriterEffect>();
-        this.sentences = new Queue<string>();
+        this.sentences = new List<string>();
         this._name = "";
         this._dialogueQueue = new Queue<DialogueSO>();
         OnPrologueDialogueEnd = new UnityEvent();
@@ -90,7 +90,7 @@ public class DialogueManager : MonoBehaviour
         dialogueOn = true;
         foreach (var sentence in dialogue.Sentences)
         {
-            this.sentences.Enqueue(sentence);
+            this.sentences.Add(sentence);
         }
 
         // spawn objFocus (for monologue) if one exists
@@ -102,6 +102,15 @@ public class DialogueManager : MonoBehaviour
             }
             currentObjFocus = Instantiate(dialogue.objFocus, objFocusParent);
             destroyFocus = dialogue.eraseAfterDialogue;
+
+            if (dialogue.objFocus.CompareTag("Uelp") && UelpSystem._featuredReview != null)
+            {
+                string[] monologueReact = UelpSystem._featuredReview.monologueReaction;
+                for (int i = 0; i < monologueReact.Length; i++)
+                {
+                    sentences.Add(monologueReact[i]);
+                }
+            }
         }
 
         this._name = dialogue.Name;
@@ -123,7 +132,8 @@ public class DialogueManager : MonoBehaviour
         {
             if (typewriterEffect.DoneTyping())
             {
-                string sentence = sentences.Dequeue();
+                string sentence = sentences[0];
+                sentences.RemoveAt(0);
                 this._name_text.text = this._name;
 
                 this.ShowTypewriterDialogue(sentence, this.currentVoice);

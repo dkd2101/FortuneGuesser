@@ -18,3 +18,10 @@ MonoBehaviour:
     for friends. Crazy how that works. Thank you man, I'm gonna do my best forever
     now. Zom on.
   starCount: 5
+  monologueReaction:
+  - (Ah, he left me a review!)
+  - (...Oh wow! This is really good.)
+  - (It looks like my advice was able to help him out. I'm so happy to see him following
+    his dreams.)
+  - (I hope he can make it out there. I'll be sure to keep up with his dance career
+    if he ever makes it big!)
