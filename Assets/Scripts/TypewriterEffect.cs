@@ -31,15 +31,15 @@ public class TypewriterEffect : MonoBehaviour
         StopAllCoroutines();
     }
 
-    public Coroutine Run(string typingText, TextMeshProUGUI myText, AudioClip voice)
+    public Coroutine Run(string typingText, TextMeshProUGUI myText, AudioClip voice, float pitch)
     {
         Debug.Log(typingText);
         textBox = myText;
         currentText = typingText;
-        return StartCoroutine(TypeText(voice));
+        return StartCoroutine(TypeText(voice, pitch));
     }
 
-    private IEnumerator TypeText(AudioClip voice)
+    private IEnumerator TypeText(AudioClip voice, float pitch)
     {
 
         //FindObjectOfType<LevelManager>().playRepeatAudio(this.talkingNoise);
@@ -65,6 +65,7 @@ public class TypewriterEffect : MonoBehaviour
             if (_audioSource != null && !_audioSource.isPlaying)
             {
                 _audioSource.clip = voice;
+                _audioSource.volume = pitch;
                 _audioSource.Play();
             }
             yield return null;
