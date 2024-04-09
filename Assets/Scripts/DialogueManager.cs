@@ -39,6 +39,7 @@ public class DialogueManager : MonoBehaviour
     private TypewriterEffect typewriterEffect;
 
     private AudioClip currentVoice;
+    private float currentPitch;
 
 
     // Start is called before the first frame update
@@ -86,6 +87,7 @@ public class DialogueManager : MonoBehaviour
     public void StartDialogue(DialogueSO dialogue)
     {
         this.currentVoice = dialogue.Voice;
+        this.currentPitch = dialogue.Pitch;
         this.sentences.Clear();
         dialogueOn = true;
         foreach (var sentence in dialogue.Sentences)
@@ -136,7 +138,7 @@ public class DialogueManager : MonoBehaviour
                 sentences.RemoveAt(0);
                 this._name_text.text = this._name;
 
-                this.ShowTypewriterDialogue(sentence, this.currentVoice);
+                this.ShowTypewriterDialogue(sentence, this.currentVoice, this.currentPitch);
             }
             else
             {
@@ -171,11 +173,11 @@ public class DialogueManager : MonoBehaviour
         // this._textBox.SetActive(false);
     }
 
-    public void ShowTypewriterDialogue(string currentDialogue, AudioClip voice)
+    public void ShowTypewriterDialogue(string currentDialogue, AudioClip voice, float pitch)
     {
         if (currentDialogue != null)
         {
-            typewriterEffect.Run(currentDialogue, _dialogue_text, voice);
+            typewriterEffect.Run(currentDialogue, _dialogue_text, voice, pitch);
         }
     }
 }

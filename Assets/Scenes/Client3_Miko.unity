@@ -2404,6 +2404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000c2c651927748d69740dedeb776de4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sentences: []
   _dialogue_text: {fileID: 552253102}
   _name_text: {fileID: 552253103}
   _textBox: {fileID: 552253100}
@@ -2639,7 +2640,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 165, y: 72}
+  m_AnchoredPosition: {x: -40, y: 72}
   m_SizeDelta: {x: 25, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1634179995
@@ -3314,7 +3315,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -188.36, y: -146.8}
+  m_AnchoredPosition: {x: -234, y: -204}
   m_SizeDelta: {x: 76.28, y: 34.86}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1941704197
