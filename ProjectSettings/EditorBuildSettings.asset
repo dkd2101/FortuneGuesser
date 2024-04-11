@@ -36,7 +36,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Client3_Miko.unity
     guid: 80fe758c76bbc6f4287827357fdf770c
   - enabled: 1
-    path: Assets/Scenes/Epilogue_Monologue.unity
+    path: Assets/Scenes/Epilogue.unity
     guid: 70b2cff300413ab489cea59405c680b2
   - enabled: 1
     path: Assets/Scenes/TemporaryEndScene.unity
