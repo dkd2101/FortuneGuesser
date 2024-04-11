@@ -7,6 +7,7 @@ TagManager:
   - LevelManager
   - Interactable
   - Uelp
+  - Epilogue
   layers:
   - Default
   - TransparentFX

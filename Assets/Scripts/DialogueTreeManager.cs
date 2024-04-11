@@ -33,6 +33,7 @@ public class DialogueTreeManager : MonoBehaviour
         if (_currentDialoguePiece.endPiece)
         {
             UelpSystem._featuredReview = _currentDialoguePiece.finalReview;
+            UelpSystem.finalScores.Add(_currentDialoguePiece.finalReview.starCount);
             _levelmanager.LoadNextScene();
         }
 

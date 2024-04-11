@@ -5,6 +5,7 @@ using TMPro;
 
 public class UelpSystem : MonoBehaviour
 {
+    public static List<int> finalScores = new List<int>();
     public static UelpReviewSO _featuredReview;
 
     [SerializeField] private UelpReviewSO _defaultReview;

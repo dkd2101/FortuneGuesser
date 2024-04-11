@@ -113,6 +113,14 @@ public class DialogueManager : MonoBehaviour
                     sentences.Add(monologueReact[i]);
                 }
             }
+            else if (dialogue.objFocus.CompareTag("Epilogue"))
+            {
+                string[] epilogueText = dialogue.objFocus.GetComponent<EpilogueDialogueOptions>().GetEpilogue();
+                for (int i = 0; i < epilogueText.Length; i++)
+                {
+                    sentences.Add(epilogueText[i]);
+                }
+            }
         }
 
         this._name = dialogue.Name;
