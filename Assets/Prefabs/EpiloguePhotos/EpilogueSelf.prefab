@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4923990553234256409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 381520609037056373}
+  - component: {fileID: 7950145194237964126}
+  m_Layer: 0
+  m_Name: EpilogueSelf
+  m_TagString: Epilogue
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &381520609037056373
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4923990553234256409}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 50, y: 50, z: 50}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7950145194237964126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4923990553234256409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b65c3fb784447e94b901b6985078893f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerEpilogue: 1
+  clientID: 0
+  oneStarDialogue:
+  - In reality, I don't know if people can be helped through fortunes at all. Much
+    less fake fortunes.
+  - Who am I kidding, this wasn't as easy as I thought it would be.
+  - People are complex and hard to read. I can't know what everyone is thinking just
+    by meeting them once.
+  - In any case, I don't think this shop is going to last much longer with the reviews
+    I've been collecting.
+  - I might want to start job searching soon.
+  - At least I can say I learned something.
+  - 
+  twoStarDialogue:
+  - I may not be changing the world, but it seems like I can at least help people
+    a little.
+  - 'Is this really a con if I''m able to benefit people? '
+  - I'm sure that I can improve over time and eventually seem like I can read people's
+    minds perfectly.
+  - What I'm doing can't be that bad if it does good in the world, right?
+  - I'll just keep improving. I know it, that's gotta be my fortune.
+  - 
+  fourStarDialogue:
+  - I really didn't expect to be able to help people as much as I did. Who knew that
+    I could have this much of an impact on people's lives?
+  - I feel kind of bad pretending I'm reading their minds and seeing their futures,
+    though. Not to mention digging through their bags.
+  - There might be a better way to go about this.
+  - It will take some hard work and saving up money but... maybe one day I could
+    become something wonderful... helpful... needed in society...
+  - I'll drop the life of cons and lying. I'll become respectable.
+  - My new dream. I can, and I will, become an ultimate therapist.
+  - 
+  fiveStarDialogue: []

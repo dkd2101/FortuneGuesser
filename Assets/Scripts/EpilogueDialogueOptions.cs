@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EpilogueDialogueOptions : MonoBehaviour
 {
+    public bool playerEpilogue = false;
     public int clientID;
 
     [TextArea(1, 10)]
@@ -19,6 +20,11 @@ public class EpilogueDialogueOptions : MonoBehaviour
     // if review score isn't properly set up, will default to 2-star
     public string[] GetEpilogue()
     {
+        if (playerEpilogue)
+        {
+            return GetPlayerEpilogue();
+        }
+
         int starCount = (UelpSystem.finalScores.Count > clientID) ? UelpSystem.finalScores[clientID] : 2;
         switch(starCount){
             case 1:
@@ -33,5 +39,28 @@ public class EpilogueDialogueOptions : MonoBehaviour
                 return twoStarDialogue;
         }
 
+    }
+
+    private string[] GetPlayerEpilogue()
+    {
+        int starCount = 0;
+        List<int> finalScores = UelpSystem.finalScores;
+        for (int i = 0; i < finalScores.Count; i++)
+        {
+            starCount += finalScores[i];
+        }
+
+        if (starCount <= 6)
+        {
+            return oneStarDialogue;
+        }
+        else if (starCount <= 11)
+        {
+            return twoStarDialogue;
+        }
+        else
+        {
+            return fourStarDialogue;
+        }
     }
 }

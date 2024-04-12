@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ebeb6b9f32147f08b4ca056ca06b5d, type: 3}
   m_Name: Epilogue4
   m_EditorClassIdentifier: 
-  name: You
+  name: Jon
   sentences: []
   voice: {fileID: 8300000, guid: 6b17f6bc64e863c4aa82ed1262bce719, type: 3}
   pitch: 2.2

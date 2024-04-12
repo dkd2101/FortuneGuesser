@@ -1016,7 +1016,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 027860fbe5b37ee49a846229e65e41d5, type: 2}
   - {fileID: 11400000, guid: 8de37c3d0d489544ead5358205869116, type: 2}
   - {fileID: 11400000, guid: 01c1345242e69ff47b58ef41ee2d8647, type: 2}
+  - {fileID: 11400000, guid: 2d8bf3cf092f6474a9b4070ad6993d78, type: 2}
+  - {fileID: 11400000, guid: 9dcef0e6e7c060a438c881da85f803a2, type: 2}
   - {fileID: 11400000, guid: ba4c023201056cc4db427dda2a7c3ea6, type: 2}
+  - {fileID: 11400000, guid: 47efa2eda5f820b4792b9ccf46a06294, type: 2}
   fadeToBlack: {fileID: 0}
 --- !u!114 &933863402
 MonoBehaviour:

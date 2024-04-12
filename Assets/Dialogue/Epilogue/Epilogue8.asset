@@ -10,14 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b8ebeb6b9f32147f08b4ca056ca06b5d, type: 3}
-  m_Name: Epilogue3
+  m_Name: Epilogue8
   m_EditorClassIdentifier: 
   name: You
-  sentences:
-  - It seems like a quiet day today. I wonder how each of the clients I've helped
-    so far are doing?
-  - 
+  sentences: []
   voice: {fileID: 8300000, guid: 6b17f6bc64e863c4aa82ed1262bce719, type: 3}
   pitch: 2.2
-  objFocus: {fileID: 0}
+  objFocus: {fileID: 2237733266638397518, guid: c885eb1f91751de4e8cdbd3df226dff3, type: 3}
   eraseAfterDialogue: 0
