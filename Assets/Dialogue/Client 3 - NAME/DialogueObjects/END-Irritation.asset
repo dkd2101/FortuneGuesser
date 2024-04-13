@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: END-Irritation
   m_EditorClassIdentifier: 
   clientDialogue: {fileID: 11400000, guid: a1aa04023e1554540a370803085338b4, type: 2}
-  choiceNames:
-  - 
+  choiceNames: []
   choiceOutcomes: []
   endPiece: 1
   finalReview: {fileID: 11400000, guid: 4b81d4933a7e1d54080de41faa6865ff, type: 2}
