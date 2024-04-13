@@ -14,6 +14,8 @@ public class ClickableObject : MonoBehaviour, IPointerEnterHandler, IPointerExit
 
     [SerializeField] private Transform _menuSpawnLocation;
 
+    [SerializeField] private ParticleSystem _inSceneParticles;
+
     public bool _isDisplaying = false;
 
     private ObjectDisplayView _curView;
@@ -63,8 +65,14 @@ public class ClickableObject : MonoBehaviour, IPointerEnterHandler, IPointerExit
     public void SetInteractivity(SceneStateManager.Mode mode) {
         if(mode == SceneStateManager.Mode.Observer) {
             _isInteractable = true;
+            if(this._inSceneParticles != null) {
+                this._inSceneParticles.Play();
+            }
         } else {
             _isInteractable = false;
+            if(this._inSceneParticles != null) {
+                this._inSceneParticles.Stop();
+            }
         }
     }
 }
