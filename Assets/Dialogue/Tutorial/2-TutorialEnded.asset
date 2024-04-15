@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b8ebeb6b9f32147f08b4ca056ca06b5d, type: 3}
-  m_Name: Prologue3
+  m_Name: 2-TutorialEnded
   m_EditorClassIdentifier: 
-  name: Jon
+  name: You
   sentences:
-  - Yo... I just saw this store opened.
-  - You're a fortune teller right? Can you tell my fortune, doc?
+  - Alright. I think everything looks good in the shop
+  - I should get home and get some rest before opening day tomorrow
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   pitch: 2.2
-  objFocus: {fileID: 2168478343177976645, guid: eddd5285bb61348b48357e0d2d3d15e8, type: 3}
+  objFocus: {fileID: 0}
   eraseAfterDialogue: 0

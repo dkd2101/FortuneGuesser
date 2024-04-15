@@ -10,13 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b8ebeb6b9f32147f08b4ca056ca06b5d, type: 3}
-  m_Name: Prologue3
+  m_Name: 1-StartTutorial
   m_EditorClassIdentifier: 
-  name: Jon
+  name: You
   sentences:
-  - Yo... I just saw this store opened.
-  - You're a fortune teller right? Can you tell my fortune, doc?
+  - Well looks like this is where I'll be running my business for a bit
+  - At least until I'm able to sort everything out
+  - I should practice my analytical skills before talking to my new clients.
+  - If I click on the crystal ball it should help me focus and see things of interest
+    in my field of view
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   pitch: 2.2
-  objFocus: {fileID: 2168478343177976645, guid: eddd5285bb61348b48357e0d2d3d15e8, type: 3}
-  eraseAfterDialogue: 0
+  objFocus: {fileID: 0}
+  eraseAfterDialogue: 1

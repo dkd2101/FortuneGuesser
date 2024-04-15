@@ -18,5 +18,6 @@ MonoBehaviour:
   - I saw there was a new shop in town that tells fortune and I wanted to confirm
     it for myself
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
-  objFocus: {fileID: 9006519633146832044, guid: cb639791f34e3480f886b15fd8b2e7ac, type: 3}
+  pitch: 2.2
+  objFocus: {fileID: 2037233488529831752, guid: cbff33c66fcba4983ac8db48471cfe95, type: 3}
   eraseAfterDialogue: 0

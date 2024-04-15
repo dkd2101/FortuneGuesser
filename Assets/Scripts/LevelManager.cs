@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Data.Common;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -10,17 +12,25 @@ public class LevelManager : MonoBehaviour
     public AudioClip levelFailedSFX;
     public AudioClip levelPassedSFX;
 
+    public UnityEvent tutorialEnded;
+
     [SerializeField] private bool hasPrologue;
+
+    [SerializeField] private bool isTutorial;
 
     [SerializeField] private DialogueSO[] _prologueDialogue;
 
+    [SerializeField] private DialogueSO[] _tutorialFinishedDialogue;
+
     public Image fadeToBlack;
+
+    private bool tutorialCompleted;
+
+    private int tutorialCount;
 
     // If the game is over
     // public static bool isGameOver = false;
 
-    // Player object, this might actually not be that neccessary
-    // public GameObject player;
 
     void Start() {
         LevelStart();
@@ -34,13 +44,6 @@ public class LevelManager : MonoBehaviour
     {
         // fun GUI stuff in here
     }
-
-    // A method to change the relationship score for the given level
-    //public void addRelationshipScore(float amount)
-    //{
-    //    // This ofc needs to get flushed out more, like does it go below 0 and such
-    //    this.relationshipScore += amount;
-    //}
 
     // A method to play audio directly to the player. This can be elaborated on if we want to use pitch as a param
     public void playAudio(AudioClip clip) {
@@ -60,8 +63,6 @@ public class LevelManager : MonoBehaviour
         Camera.main.GetComponent<AudioSource>().Stop();
     }
 
-
-
     //  Pass in a scene to be played at the beginning of the level
     public void LevelStart() {
         if (!this.hasPrologue)
@@ -72,6 +73,11 @@ public class LevelManager : MonoBehaviour
         DialogueManager dm = this.gameObject.GetComponent<DialogueManager>();
 
         Debug.Log(dm);
+        if(this.isTutorial) {
+            dm.PlayPrologue(this._prologueDialogue);
+            this.tutorialEnded.AddListener(this.OnTutorialEnded);
+            return;
+        }
 
         dm.SetPrologueEndListener(this.LoadNextScene);
         dm.PlayPrologue(this._prologueDialogue);
@@ -139,6 +145,20 @@ public class LevelManager : MonoBehaviour
 
             yield return null;
         }
+    }
+
+    public void IncrementCrystalClicks() {
+        this.tutorialCount++;
+        if(this.tutorialCount >= 2) {
+            this.tutorialEnded.Invoke();
+        }
+    }
+
+    public void OnTutorialEnded() {
+        DialogueManager dm = this.gameObject.GetComponent<DialogueManager>();
+
+        dm.PlayPrologue(_tutorialFinishedDialogue);
+        dm.SetPrologueEndListener(this.LoadNextScene);
     }
 
 }
