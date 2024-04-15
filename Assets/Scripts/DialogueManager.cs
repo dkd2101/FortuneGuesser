@@ -168,8 +168,11 @@ public class DialogueManager : MonoBehaviour
             _dialogueTreeManager.DisplayChoices();
         if(isPrologue){
             if(_dialogueQueue.Count == 0){
+                Debug.Log("prologue ended");
                 OnPrologueDialogueEnd.Invoke();
                 isPrologue = false;
+                dialogueOn = false;
+                this._textBox.SetActive(false);
                 return;
             }
 
