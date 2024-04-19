@@ -1015,6 +1015,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000c2c651927748d69740dedeb776de4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sentences: []
   _dialogue_text: {fileID: 1995205578}
   _name_text: {fileID: 487759350}
   _textBox: {fileID: 2068967628}
@@ -1052,8 +1053,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelFailedSFX: {fileID: 0}
   levelPassedSFX: {fileID: 0}
+  tutorialEnded:
+    m_PersistentCalls:
+      m_Calls: []
   hasPrologue: 0
+  isTutorial: 0
   _prologueDialogue: []
+  _tutorialFinishedDialogue: []
   fadeToBlack: {fileID: 340749514}
 --- !u!114 &933863402
 MonoBehaviour:
@@ -1098,7 +1104,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 2.06
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1656,6 +1662,7 @@ MonoBehaviour:
   _display: {fileID: 3336832259316332574, guid: ae82f52d8de9349d086000b6a960b40d, type: 3}
   _clickArea: {fileID: 1101424864}
   _menuSpawnLocation: {fileID: 1745153098}
+  _inSceneParticles: {fileID: 0}
   _isDisplaying: 0
   _isInteractable: 1
 --- !u!1 &1125757840

@@ -371,8 +371,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Name
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e8a1ae48594d341738f2b3d1404f2f00, type: 2}
+  m_sharedMaterial: {fileID: 6399277812699282753, guid: e8a1ae48594d341738f2b3d1404f2f00, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1010,7 +1010,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelFailedSFX: {fileID: 0}
   levelPassedSFX: {fileID: 0}
+  tutorialEnded:
+    m_PersistentCalls:
+      m_Calls: []
   hasPrologue: 1
+  isTutorial: 0
   _prologueDialogue:
   - {fileID: 11400000, guid: 509d92ccc645360448e146b11320dc73, type: 2}
   - {fileID: 11400000, guid: 027860fbe5b37ee49a846229e65e41d5, type: 2}
@@ -1020,6 +1024,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9dcef0e6e7c060a438c881da85f803a2, type: 2}
   - {fileID: 11400000, guid: ba4c023201056cc4db427dda2a7c3ea6, type: 2}
   - {fileID: 11400000, guid: 47efa2eda5f820b4792b9ccf46a06294, type: 2}
+  _tutorialFinishedDialogue: []
   fadeToBlack: {fileID: 0}
 --- !u!114 &933863402
 MonoBehaviour:
@@ -1145,7 +1150,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.25
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1769,8 +1774,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Dialogue
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 65aeb0b883ac24db389b34c753d6f77d, type: 2}
+  m_sharedMaterial: {fileID: 1488126718993405485, guid: 65aeb0b883ac24db389b34c753d6f77d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

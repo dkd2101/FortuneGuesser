@@ -6563,7 +6563,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 2.06
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -6673,8 +6673,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelFailedSFX: {fileID: 0}
   levelPassedSFX: {fileID: 0}
+  tutorialEnded:
+    m_PersistentCalls:
+      m_Calls: []
   hasPrologue: 0
+  isTutorial: 0
   _prologueDialogue: []
+  _tutorialFinishedDialogue: []
   fadeToBlack: {fileID: 1673392494}
 --- !u!114 &1503654400
 MonoBehaviour:

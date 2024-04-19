@@ -1010,7 +1010,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelFailedSFX: {fileID: 0}
   levelPassedSFX: {fileID: 0}
+  tutorialEnded:
+    m_PersistentCalls:
+      m_Calls: []
   hasPrologue: 1
+  isTutorial: 0
   _prologueDialogue:
   - {fileID: 11400000, guid: 7890f0f853134469588608d0e3f8908f, type: 2}
   - {fileID: 11400000, guid: 6918c9eb9574c0541b517d82ac2a0cb2, type: 2}
@@ -1019,6 +1023,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4b9cbe71352ca493590dbb917568df5a, type: 2}
   - {fileID: 11400000, guid: 39151b37f19de4385b9b828f06ab9d76, type: 2}
   - {fileID: 11400000, guid: fbdf07c614b3340669c2401220bc6708, type: 2}
+  _tutorialFinishedDialogue: []
   fadeToBlack: {fileID: 0}
 --- !u!114 &933863402
 MonoBehaviour:
@@ -1144,7 +1149,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.25
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
