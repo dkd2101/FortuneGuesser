@@ -92,7 +92,7 @@ public class DialogueManager : MonoBehaviour
         this.currentPitch = dialogue.Pitch;
 
 
-        if (_CharcaterAnimator) {
+        if (_CharcaterAnimator && dialogue.Animation) {
             _CharcaterAnimator.SetTrigger("emotion");
         }
 
