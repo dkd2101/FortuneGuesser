@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ebeb6b9f32147f08b4ca056ca06b5d, type: 3}
   m_Name: Prologue-4
   m_EditorClassIdentifier: 
-  name: Me
+  name: You
   sentences:
   - Hello! Yes, of course, Lou Seven. Welcome to the shop!
   - I've been expecting you.
@@ -20,5 +20,6 @@ MonoBehaviour:
   - I'm just gonna need to you to fill out a few forms for me in the front.
   - Feel free to leave your bag right on this chair.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
+  pitch: 2.2
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

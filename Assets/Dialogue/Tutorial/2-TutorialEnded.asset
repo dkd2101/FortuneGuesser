@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: You
   sentences:
-  - Alright. I think everything looks good in the shop
-  - I should get home and get some rest before opening day tomorrow
+  - Alright. I think everything looks good in the shop.
+  - I should get home and get some rest before opening day tomorrow.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
   pitch: 2.2
   objFocus: {fileID: 0}

@@ -13,11 +13,7 @@ MonoBehaviour:
   m_Name: G7Choice - YouAreFineAsAre
   m_EditorClassIdentifier: 
   clientDialogue: {fileID: 11400000, guid: 2cf40ed1e9f00f2478ca1e1c1b31fc70, type: 2}
-  choiceNames:
-  - Her success makes you feel pressured
-  - Your feelings are difficult to describe in words
-  choiceOutcomes:
-  - {fileID: 11400000, guid: 219183745b8d5d743a16867b10a99929, type: 2}
-  - {fileID: 11400000, guid: 41ad9b4df109cd947849ff1d75c056a9, type: 2}
-  endPiece: 0
-  scoreValue: 0
+  choiceNames: []
+  choiceOutcomes: []
+  endPiece: 1
+  finalReview: {fileID: 11400000, guid: fd0f3828d7b45484eac11c237138ad0e, type: 2}
