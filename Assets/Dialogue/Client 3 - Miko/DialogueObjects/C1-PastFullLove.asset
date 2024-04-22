@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62b0fd2f3c055424fad7935ab39be4e9, type: 3}
   m_Name: C1-PastFullLove
   m_EditorClassIdentifier: 
-  clientDialogue: {fileID: 0}
+  clientDialogue: {fileID: 11400000, guid: 7ae3fda89d76945b6bdaa98ff3276f50, type: 2}
   choiceNames:
   - You were betrayed by the person you love
   - Loving meant more than you initially thought
