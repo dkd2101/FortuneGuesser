@@ -41,6 +41,8 @@ public class DialogueManager : MonoBehaviour
     private AudioClip currentVoice;
     private float currentPitch;
 
+    public Animator _CharcaterAnimator;
+
 
     // Start is called before the first frame update
     void Awake()
@@ -88,6 +90,12 @@ public class DialogueManager : MonoBehaviour
     {
         this.currentVoice = dialogue.Voice;
         this.currentPitch = dialogue.Pitch;
+
+
+        if (_CharcaterAnimator && dialogue.Animation) {
+            _CharcaterAnimator.SetTrigger("emotion");
+        }
+
         this.sentences.Clear();
         dialogueOn = true;
         foreach (var sentence in dialogue.Sentences)

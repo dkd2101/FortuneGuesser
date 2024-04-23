@@ -17,6 +17,8 @@ public class DialogueSO : ScriptableObject
 
     [SerializeField] private float pitch = 2.2f;
 
+    [SerializeField] private bool animation = false;
+
     // objFocus represents a gameObject relevant to the monologue,
     // it is instantiated during this dialogue if filled out
     [Header("use only during prologue/monologue")]
@@ -29,4 +31,6 @@ public class DialogueSO : ScriptableObject
 
     public AudioClip Voice => voice;
     public float Pitch => pitch;
+
+    public bool Animation => animation;
 }

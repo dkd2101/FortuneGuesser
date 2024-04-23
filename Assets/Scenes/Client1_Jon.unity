@@ -834,6 +834,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   objFocusParent: {fileID: 0}
+  _CharcaterAnimator: {fileID: 1594205905}
 --- !u!4 &708048074
 Transform:
   m_ObjectHideFlags: 0
@@ -6671,6 +6672,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2129986904401110442, guid: eddd5285bb61348b48357e0d2d3d15e8, type: 3}
   m_PrefabInstance: {fileID: 3670604946822571584}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1594205905 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8172580068962924459, guid: eddd5285bb61348b48357e0d2d3d15e8, type: 3}
+  m_PrefabInstance: {fileID: 3670604946822571584}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1648682179
 GameObject:
   m_ObjectHideFlags: 0
@@ -7425,7 +7431,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.2200012, y: -0.73999023}
+  m_AnchoredPosition: {x: 2.2200317, y: -0.73999023}
   m_SizeDelta: {x: 169.58, y: 92.34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2057874281

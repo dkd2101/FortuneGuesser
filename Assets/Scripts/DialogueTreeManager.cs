@@ -11,7 +11,7 @@ public class DialogueTreeManager : MonoBehaviour
     public DialogueManager _dialogueManager;
     public LevelManager _levelmanager;
 
-    private GameObject[] _activeChoiceButtons;
+private GameObject[] _activeChoiceButtons;
 
     void Start()
     {
