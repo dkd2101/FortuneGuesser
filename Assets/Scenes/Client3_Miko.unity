@@ -6103,6 +6103,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &682949619 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5479273430846649227, guid: cbff33c66fcba4983ac8db48471cfe95, type: 3}
+  m_PrefabInstance: {fileID: 4576517661780597278}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &719329177
 GameObject:
   m_ObjectHideFlags: 0
@@ -21750,6 +21755,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   objFocusParent: {fileID: 0}
+  _CharcaterAnimator: {fileID: 682949619}
 --- !u!4 &1503654402
 Transform:
   m_ObjectHideFlags: 0

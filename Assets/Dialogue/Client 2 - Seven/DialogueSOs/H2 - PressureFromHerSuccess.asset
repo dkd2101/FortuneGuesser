@@ -19,5 +19,7 @@ MonoBehaviour:
   - 'Every single thing she does, she does better than I do. '
   - ...Sometimes I feel like she's doing it to spite me.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
+  pitch: 2.2
+  animation: 1
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

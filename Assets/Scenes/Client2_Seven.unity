@@ -6719,6 +6719,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   objFocusParent: {fileID: 0}
+  _CharcaterAnimator: {fileID: 1936205583}
 --- !u!4 &1503654402
 Transform:
   m_ObjectHideFlags: 0
@@ -12265,6 +12266,11 @@ PrefabInstance:
 --- !u!4 &1936205582 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4619007277706142430, guid: 13dc19a1e82794045b1300f210556f31, type: 3}
+  m_PrefabInstance: {fileID: 1936205581}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1936205583 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6987763070577088923, guid: 13dc19a1e82794045b1300f210556f31, type: 3}
   m_PrefabInstance: {fileID: 1936205581}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2003730773

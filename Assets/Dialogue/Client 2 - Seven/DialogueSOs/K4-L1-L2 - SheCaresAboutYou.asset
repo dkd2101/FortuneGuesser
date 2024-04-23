@@ -20,5 +20,7 @@ MonoBehaviour:
   - 'After all this time I can take a breather and try to reconnect with my sister. '
   - I have a lot to think about... Thank you so much, I think I'll be heading out.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
+  pitch: 2.2
+  animation: 1
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

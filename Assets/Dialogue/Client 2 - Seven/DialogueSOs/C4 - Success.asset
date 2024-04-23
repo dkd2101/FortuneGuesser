@@ -17,5 +17,7 @@ MonoBehaviour:
   - 'Really? Honestly, that''s all I really neded to hear. '
   - Thank you so much, this was a much needed vote of confidence
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
+  pitch: 2.2
+  animation: 1
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0
