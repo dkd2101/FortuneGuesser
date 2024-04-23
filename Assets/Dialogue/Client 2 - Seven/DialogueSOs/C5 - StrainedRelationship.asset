@@ -17,5 +17,7 @@ MonoBehaviour:
   - 'I don''t get what you mean. '
   - I think you might be misunderstanding something.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
+  pitch: 2.2
+  animation: 0
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

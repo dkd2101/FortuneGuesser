@@ -17,5 +17,7 @@ MonoBehaviour:
   - There is nothing to GRIEVE!
   - Why are you so INSISTENT that I am stuck on people in the past!
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
+  pitch: 2.2
+  animation: 1
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0

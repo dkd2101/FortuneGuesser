@@ -20,5 +20,7 @@ MonoBehaviour:
   - 'Not! '
   - Thank you very much for your time, but I'll be leaving now.
   voice: {fileID: 8300000, guid: 9f1c9be26462ac74fb8080acb7b5fd0d, type: 3}
+  pitch: 2.2
+  animation: 1
   objFocus: {fileID: 0}
   eraseAfterDialogue: 0
